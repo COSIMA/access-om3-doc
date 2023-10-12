@@ -158,3 +158,101 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# --------------------
+
+*.pdf
+*.eps
+*.png
+*.jpg
+*.jpeg
+*.PDF
+*.PNG
+*.JPG
+*.JPEG
+access-om3-doc.*
+!access-om3-doc.tex
+!access-om3-doc.bib
+figures/README.txt
+__pycache__
+.ipynb_checkpoints
+dask-worker-space
+cache_*.pkl
+namelists/raijin
+namelists/github.com
+*/*/NOSYNC/*
+
+# from https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+# from https://github.com/github/gitignore/blob/master/Global/Windows.gitignore
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+
+# from https://github.com/github/gitignore/blob/master/Global/Linux.gitignore
+
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
