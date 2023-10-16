@@ -1,0 +1,4 @@
+[submodule "MOM6-CICE6_1deg_jra55do_ryf"]
+	path = MOM6-CICE6_1deg_jra55do_ryf
+	url = https://github.com/COSIMA/MOM6-CICE6.git
+	branch = 1deg_jra55do_ryf
