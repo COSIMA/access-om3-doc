@@ -19,4 +19,6 @@ git checkout
 # # append pullfigs to post-merge hook
 # echo "exec ./pullfigs.sh" >> .git/hooks/post-merge
 
+./make_tables.py
+
 exit 0
