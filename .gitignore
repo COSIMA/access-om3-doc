@@ -178,8 +178,7 @@ __pycache__
 .ipynb_checkpoints
 dask-worker-space
 cache_*.pkl
-namelists/raijin
-namelists/github.com
+namelists/*
 */*/NOSYNC/*
 
 # from https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
