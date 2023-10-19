@@ -5,3 +5,12 @@
 [submodule "ACCESS-OM2_1deg_jra55_ryf"]
 	path = configs/ACCESS-OM2_1deg_jra55_ryf
 	url = https://github.com/COSIMA/1deg_jra55_ryf
+[submodule "configs/mom6-om4-025"]
+	path = configs/mom6-om4-025
+	url = https://github.com/COSIMA/mom6-om4-025
+[submodule "configs/mom6-panan"]
+	path = configs/mom6-panan
+	url = https://github.com/COSIMA/mom6-panan
+[submodule "configs/mom6-eac"]
+	path = configs/mom6-eac
+	url = https://github.com/COSIMA/mom6-eac
