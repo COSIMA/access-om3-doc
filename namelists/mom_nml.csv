@@ -1,4 +1,4 @@
-diff,group,group link,variable,variable link,configs/MOM6-examples/ocean_only/global/MOM_input,configs/mom6-om4-025/MOM_input,configs/mom6-panan/MOM_input,configs/mom6-eac/MOM_input,configs/MOM6-CICE6_1deg_jra55do_ryf/MOM_input
+diff,group link,variable,variable link,configs/MOM6-examples/ocean_only/global/MOM_input,configs/mom6-om4-025/MOM_input,configs/mom6-panan/MOM_input,configs/mom6-eac/MOM_input,configs/MOM6-CICE6_1deg_jra55do_ryf/MOM_input
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")",absorb_all_sw,https://github.com/mom-ocean/MOM6/search?q=absorb_all_sw,True,,,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")",adjust_net_fresh_water_to_zero,https://github.com/mom-ocean/MOM6/search?q=adjust_net_fresh_water_to_zero,,,,,True
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")",adjust_net_srestore_to_zero,https://github.com/mom-ocean/MOM6/search?q=adjust_net_srestore_to_zero,,,,,True
