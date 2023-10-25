@@ -14,3 +14,6 @@
 [submodule "configs/mom6-eac"]
 	path = configs/mom6-eac
 	url = https://github.com/COSIMA/mom6-eac
+[submodule "MOM6-examples"]
+	path = configs/MOM6-examples
+	url = https://github.com/NOAA-GFDL/MOM6-examples.git
