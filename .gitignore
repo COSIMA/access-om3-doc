@@ -179,6 +179,8 @@ __pycache__
 dask-worker-space
 cache_*.pkl
 namelists/*
+!namelists/*.md
+!namelists/*.csv
 */*/NOSYNC/*
 
 # from https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
