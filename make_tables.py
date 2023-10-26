@@ -9,53 +9,55 @@ configs = 'configs'
 namelists = 'namelists'
 os.makedirs(namelists, exist_ok=True)
 
-nmls = [#'ACCESS-OM2_1deg_jra55_ryf/ocean/input.nml',
+os.chdir(configs)
+
+def savetables(nmls, fname, url):
+    print('   {}'.format(fname))
+    fname += '_nml'
+    nmld = nmltab.nmldict(nmls)
+    for i in range(2):
+        st = nmltab.strnmldict(nmld, fmt='latex', url=url)
+        with open(os.path.join('..', namelists, fname+'.tex'), 'w') as f:
+            f.write(st)
+        st = nmltab.strnmldict(nmld, fmt='markdown2', url=url)
+        with open(os.path.join('..', namelists, fname+'.md'), 'w') as f:
+            f.write(st)
+        st = nmltab.strnmldict(nmld, fmt='csv', url=url)
+        with open(os.path.join('..', namelists, fname+'.csv'), 'w') as f:
+            f.write(st)
+        nmltab.nmldiff(nmld)
+        fname += "_diff"
+
+savetables([
+        'ACCESS-OM2_1deg_jra55_ryf/ice/cice_in.nml',
+        'MOM6-CICE6_1deg_jra55do_ryf/ice_in'
+        ],
+        'cice',
+        'https://cice-consortium-cice.readthedocs.io/en/main/search.html?q='
+        )
+
+savetables( [
+        #'ACCESS-OM2_1deg_jra55_ryf/ocean/input.nml',
         'MOM6-examples/ocean_only/global/MOM_input',
         'mom6-om4-025/MOM_input',
         'mom6-panan/MOM_input',
         'mom6-eac/MOM_input',
-        'MOM6-CICE6_1deg_jra55do_ryf/MOM_input']
-nmls = [ os.path.join(configs, d) for d in nmls ]
-texfname = 'mom_nml.tex'
-st = nmltab.strnmldict(nmltab.nmldict(nmls), fmt='latex')
-with open(os.path.join(namelists, texfname), 'w') as f:
-    f.write(st)
-print('   {}'.format(texfname))
+        'MOM6-CICE6_1deg_jra55do_ryf/MOM_input'
+        ],
+        'mom6',
+        'https://github.com/mom-ocean/MOM6/search?q=')
 
-nmls = ['MOM6-examples/ocean_only/global/MOM_input',
+savetables( [
+        'MOM6-examples/ocean_only/global/MOM_input',
         'mom6-om4-025/MOM_input',
-        'MOM6-CICE6_1deg_jra55do_ryf/MOM_input']
-nmls = [ os.path.join(configs, d) for d in nmls ]
-texfname = 'mom6_global_nml.tex'
-st = nmltab.strnmldict(nmltab.nmldict(nmls), fmt='latex')
-with open(os.path.join(namelists, texfname), 'w') as f:
-    f.write(st)
-print('   {}'.format(texfname))
+        'MOM6-CICE6_1deg_jra55do_ryf/MOM_input'
+        ],
+        'mom6_global',
+        'https://github.com/mom-ocean/MOM6/search?q=')
 
-nmls = ['mom6-om4-025/MOM_input',
+savetables( [
         'mom6-panan/MOM_input',
-        'mom6-eac/MOM_input']
-nmls = [ os.path.join(configs, d) for d in nmls ]
-texfname = 'mom6_sis2_nml.tex'
-st = nmltab.strnmldict(nmltab.nmldict(nmls), fmt='latex')
-with open(os.path.join(namelists, texfname), 'w') as f:
-    f.write(st)
-print('   {}'.format(texfname))
-
-nmls = ['mom6-panan/MOM_input',
-        'mom6-eac/MOM_input']
-nmls = [ os.path.join(configs, d) for d in nmls ]
-texfname = 'mom6_sis2_regional_nml.tex'
-st = nmltab.strnmldict(nmltab.nmldict(nmls), fmt='latex')
-with open(os.path.join(namelists, texfname), 'w') as f:
-    f.write(st)
-print('   {}'.format(texfname))
-
-nmls = ['ACCESS-OM2_1deg_jra55_ryf/ice/cice_in.nml',
-        'MOM6-CICE6_1deg_jra55do_ryf/ice_in']
-nmls = [ os.path.join(configs, d) for d in nmls ]
-texfname = 'cice_nml.tex'
-st = nmltab.strnmldict(nmltab.nmldict(nmls), fmt='latex')
-with open(os.path.join(namelists, texfname), 'w') as f:
-    f.write(st)
-print('   {}'.format(texfname))
+        'mom6-eac/MOM_input'
+        ],
+        'mom6_regional',
+        'https://github.com/mom-ocean/MOM6/search?q=')
