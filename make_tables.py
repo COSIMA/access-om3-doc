@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 
-# Update latex tables of namelists
+# Update tables of namelists
 
 import nmltab  # from https://github.com/aekiss/nmltab
 import os
 
 configs = 'configs'
-namelists = 'namelists'
-os.makedirs(namelists, exist_ok=True)
+tables = 'tables'
+os.makedirs(tables, exist_ok=True)
 
 os.chdir(configs)
 
@@ -17,13 +17,13 @@ def savetables(nmls, fname, url):
     nmld = nmltab.nmldict(nmls)
     for i in range(2):
         st = nmltab.strnmldict(nmld, fmt='latex', url=url)
-        with open(os.path.join('..', namelists, fname+'.tex'), 'w') as f:
+        with open(os.path.join('..', tables, fname+'.tex'), 'w') as f:
             f.write(st)
         st = nmltab.strnmldict(nmld, fmt='markdown2', url=url)
-        with open(os.path.join('..', namelists, fname+'.md'), 'w') as f:
+        with open(os.path.join('..', tables, fname+'.md'), 'w') as f:
             f.write(st)
         st = nmltab.strnmldict(nmld, fmt='csv', url=url)
-        with open(os.path.join('..', namelists, fname+'.csv'), 'w') as f:
+        with open(os.path.join('..', tables, fname+'.csv'), 'w') as f:
             f.write(st)
         nmltab.nmldiff(nmld)
         fname += "_diff"

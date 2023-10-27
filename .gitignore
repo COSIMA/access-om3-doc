@@ -178,9 +178,9 @@ __pycache__
 .ipynb_checkpoints
 dask-worker-space
 cache_*.pkl
-namelists/*
-!namelists/*.md
-!namelists/*.csv
+tables/*
+!tables/*.md
+!tables/*.csv
 */*/NOSYNC/*
 
 # from https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
