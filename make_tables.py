@@ -41,7 +41,7 @@ savetables( [
         'MOM6-examples/ocean_only/global/MOM_input',
         'mom6-om4-025/MOM_input',
         'mom6-panan/MOM_input',
-        'mom6-eac/MOM_input',
+        # 'mom6-eac/MOM_input',  # no relevant differences from mom6-panan
         'MOM6-CICE6_1deg_jra55do_ryf/MOM_input'
         ],
         'mom6',
