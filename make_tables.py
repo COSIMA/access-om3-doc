@@ -81,28 +81,28 @@ def savetables(nmls, fname, url):
         fname += "_diff"
 
 savetables([
+        'MOM6-CICE6_1deg_jra55do_ryf/ice_in',
         'ACCESS-OM2_1deg_jra55_ryf/ice/cice_in.nml',
-        'MOM6-CICE6_1deg_jra55do_ryf/ice_in'
         ],
         'cice',
         'https://cice-consortium-cice.readthedocs.io/en/main/search.html?q='
         )
 
 savetables( [
-        #'ACCESS-OM2_1deg_jra55_ryf/ocean/input.nml',
-        'MOM6-examples/ocean_only/global/MOM_input',
+        'MOM6-CICE6_1deg_jra55do_ryf/MOM_input',
         'mom6-om4-025/MOM_input',
         'mom6-panan/MOM_input',
         # 'mom6-eac/MOM_input',  # no relevant differences from mom6-panan
-        'MOM6-CICE6_1deg_jra55do_ryf/MOM_input'
+        #'ACCESS-OM2_1deg_jra55_ryf/ocean/input.nml',
+        'MOM6-examples/ocean_only/global/MOM_input',
         ],
         'mom6',
         'https://github.com/mom-ocean/MOM6/search?q=')
 
 savetables( [
-        'MOM6-examples/ocean_only/global/MOM_input',
+        'MOM6-CICE6_1deg_jra55do_ryf/MOM_input',
         'mom6-om4-025/MOM_input',
-        'MOM6-CICE6_1deg_jra55do_ryf/MOM_input'
+        'MOM6-examples/ocean_only/global/MOM_input',
         ],
         'mom6_global',
         'https://github.com/mom-ocean/MOM6/search?q=')
