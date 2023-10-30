@@ -17,3 +17,7 @@
 [submodule "MOM6-examples"]
 	path = configs/MOM6-examples
 	url = https://github.com/NOAA-GFDL/MOM6-examples.git
+[submodule "configs/MOM6-CICE6_gmom_jra"]
+	path = configs/MOM6-CICE6_gmom_jra
+	url = https://github.com/COSIMA/MOM6-CICE6.git
+	branch = gmom_jra
