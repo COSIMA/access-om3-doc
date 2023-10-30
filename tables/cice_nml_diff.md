@@ -1,4 +1,4 @@
-| Group | Variable | ACCESS-OM2_1deg_jra55_ryf/<br>ice/<br>cice_in.nml | MOM6-CICE6_1deg_jra55do_ryf/<br>ice_in |
+| Group | Variable | [ACCESS-OM2_1deg_jra55_ryf/<br>ice/<br>cice_in.nml](https://github.com/COSIMA/1deg_jra55_ryf/blob/7c6be951530901082be8106a4f819e437fbeb19b/ice/cice_in.nml) | [MOM6-CICE6_1deg_jra55do_ryf/<br>ice_in](https://github.com/COSIMA/MOM6-CICE6/blob/f62734f09eace00c32ee6bec87fb30926e661a0e/ice_in) |
 | :- | :- | -: | -: |
 | [domain_nml](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=domain_nml) | **[add_mpi_barriers](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=add_mpi_barriers)** |  | False |
 |  | **[block_size_x](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=block_size_x)** |  | 20 |

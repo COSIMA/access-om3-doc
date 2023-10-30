@@ -4,22 +4,74 @@
 
 import nmltab  # from https://github.com/aekiss/nmltab
 import os
+import subprocess
 
 configs = 'configs'
 tables = 'tables'
 os.makedirs(tables, exist_ok=True)
 
+def getsubmodules(gitmodules='.gitmodules'):
+    """Return dict of contents of .gitmodules
+    """
+    submodules = dict()
+    submodule = list()  # deliberately invalid dict key
+    with open(gitmodules, 'r') as f:
+        for line in f:
+            if line.startswith('[submodule "'):
+                submodule = line.split('[submodule "')[1].split('"')[0]
+                submodules[submodule] = dict()
+            else:
+                line = line.strip()
+                key, value = line.split(' = ')
+                submodules[submodule][key] = value
+    return submodules
+
 os.chdir(configs)
 
+def getnmlfnameurls(nmls):
+    """Return  dict of urls for each namelist path
+    nmls: list of paths to namelists
+    returns dict:
+    key = nml
+    value = url
+    """
+    nmlfnameurls = dict()
+    submodules = getsubmodules('../.gitmodules')
+    submods = dict()
+    for val in submodules.values():  # use submodule paths (relative to conifigs) as keys
+        path = os.path.sep.join(val['path'].split(configs+os.path.sep)[1:])  # strip off configs
+        submods[path] = val
+    for fn in nmls:
+        try:
+            p = subprocess.Popen('cd ' + os.path.dirname(fn)
+                                + ' && git rev-parse HEAD',
+                                stdout=subprocess.PIPE, shell=True)
+            hash = p.communicate()[0].decode('ascii').strip()
+            nmlfnameurls[fn] = '/'.join([
+                submods[fn.split(os.path.sep)[0]]['url'].split('.git')[0],
+                'blob',
+                hash,
+                os.path.sep.join(fn.split(os.path.sep)[1:])
+                ])
+        except:
+            pass
+    return nmlfnameurls
+
 def savetables(nmls, fname, url):
+    """Save tabulated namelists.
+    nmls: list of paths to namelists
+    fname: initial part of output filenames
+    url: link to search on variables
+    """
     print('   {}'.format(fname))
     fname += '_nml'
     nmld = nmltab.nmldict(nmls)
+    nmlfnameurls = getnmlfnameurls(nmls)
     for i in range(2):
         st = nmltab.strnmldict(nmld, fmt='latex', url=url)
         with open(os.path.join('..', tables, fname+'.tex'), 'w') as f:
             f.write(st)
-        st = nmltab.strnmldict(nmld, fmt='markdown2', url=url)
+        st = nmltab.strnmldict(nmld, fmt='markdown2', url=url, nmlfnameurls=nmlfnameurls)
         with open(os.path.join('..', tables, fname+'.md'), 'w') as f:
             f.write(st)
         st = nmltab.strnmldict(nmld, fmt='csv', url=url)

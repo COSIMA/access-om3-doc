@@ -1,4 +1,4 @@
-| Variable | MOM6-examples/<br>ocean_only/<br>global/<br>MOM_input | mom6-om4-025/<br>MOM_input | mom6-panan/<br>MOM_input | MOM6-CICE6_1deg_jra55do_ryf/<br>MOM_input |
+| Variable | [MOM6-examples/<br>ocean_only/<br>global/<br>MOM_input](https://github.com/NOAA-GFDL/MOM6-examples/blob/a1c1d4fdcdcfd87bd3f20d5c04bda675f664beeb/ocean_only/global/MOM_input) | [mom6-om4-025/<br>MOM_input](https://github.com/COSIMA/mom6-om4-025/blob/9976b7963ba94b89c3d660f777d62836c553c412/MOM_input) | [mom6-panan/<br>MOM_input](https://github.com/COSIMA/mom6-panan/blob/a900ea38a08896d2b6c43350a1505830212c9c69/MOM_input) | [MOM6-CICE6_1deg_jra55do_ryf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/f62734f09eace00c32ee6bec87fb30926e661a0e/MOM_input) |
 | :- | -: | -: | -: | -: |
 | **[absorb_all_sw](https://github.com/mom-ocean/MOM6/search?q=absorb_all_sw)** | True |  |  |  |
 | **[adjust_net_fresh_wate<br>r_to_zero](https://github.com/mom-ocean/MOM6/search?q=adjust_net_fresh_water_to_zero)** |  |  |  | True |

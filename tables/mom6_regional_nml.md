@@ -1,4 +1,4 @@
-| Variable | mom6-panan/<br>MOM_input | mom6-eac/<br>MOM_input |
+| Variable | [mom6-panan/<br>MOM_input](https://github.com/COSIMA/mom6-panan/blob/a900ea38a08896d2b6c43350a1505830212c9c69/MOM_input) | [mom6-eac/<br>MOM_input](https://github.com/COSIMA/mom6-eac/blob/8a24b1c62e9e9f4616b66b6873c7824fb357c1a5/MOM_input) |
 | :- | -: | -: |
 | [ah_vel_scale](https://github.com/mom-ocean/MOM6/search?q=ah_vel_scale) | 0.01 | 0.01 |
 | [ale_coordinate_config](https://github.com/mom-ocean/MOM6/search?q=ale_coordinate_config) | 'FILE:vcoord.nc<br>,interfaces=st_<br>edges_ocean' | 'FILE:vcoord.nc<br>,interfaces=st_<br>edges_ocean' |
