@@ -25,3 +25,7 @@
 	path = configs/MOM6-CICE6_1deg_jra55do_iaf
 	url = https://github.com/COSIMA/MOM6-CICE6.git
 	branch = 1deg_jra55do_iaf
+[submodule "configs/MOM6-CICE6_iss83_MOM_input_update"]
+	path = configs/MOM6-CICE6_iss83_MOM_input_update
+	url = https://github.com/COSIMA/MOM6-CICE6.git
+	branch = iss83_MOM_input_update
