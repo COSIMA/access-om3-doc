@@ -73,7 +73,7 @@ def savetables(nmls, fname, url):
         st = nmltab.strnmldict(nmld, fmt='latex', url=url)
         with open(os.path.join('..', tables, fname+'.tex'), 'w') as f:
             f.write(st)
-        st = nmltab.strnmldict(nmld, fmt='markdown2', url=url, nmlfnameurls=nmlfnameurls)
+        st = nmltab.strnmldict(nmld, fmt='markdown2', url=url, nmlfnameurls=nmlfnameurls, breaks=True)
         with open(os.path.join('..', tables, fname+'.md'), 'w') as f:
             f.write(st)
         st = nmltab.strnmldict(nmld, fmt='csv', url=url)
