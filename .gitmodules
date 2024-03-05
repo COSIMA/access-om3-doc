@@ -34,7 +34,3 @@
 	path = configs/MOM6-CICE6_iss83_MOM_input_update
 	url = https://github.com/COSIMA/MOM6-CICE6.git
 	branch = iss83_MOM_input_update
-[submodule "configs/MOM6-CICE6_cice_config"]
-	path = configs/MOM6-CICE6_cice_config
-	url = https://github.com/anton-seaice/MOM6-CICE6.git
-	branch = cice_config

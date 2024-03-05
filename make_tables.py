@@ -90,15 +90,6 @@ savetables([
         'https://cice-consortium-cice.readthedocs.io/en/main/search.html?q='
         )
 
-savetables([
-        'MOM6-CICE6_cice_config/ice_in',
-        'ACCESS-OM2_1deg_jra55_ryf/ice/cice_in.nml',
-        'MOM6-CICE6_1deg_jra55do_ryf/ice_in',
-        ],
-        'ice_in/MOM6-CICE6_cice_config',
-        'https://cice-consortium-cice.readthedocs.io/en/main/search.html?q='
-        )
-
 savetables( [
         'MOM6-CICE6_1deg_jra55do_ryf/MOM_input',
         'MOM6-CICE6_1deg_jra55do_iaf/MOM_input',
