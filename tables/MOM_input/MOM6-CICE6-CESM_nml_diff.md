@@ -1,23 +1,64 @@
-| Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/f62734f09eace00c32ee6bec87fb30926e661a0e/MOM_input) | [MOM6-CICE6_gmom_jra/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/4f9e72a2c32ca4f6873a6f9cfad288038da945f4/MOM_input) |
-| :------------------------ | --------------: | --------------: |
-| [**adjust_net_srestore_t<br>o_zero**](https://github.com/mom-ocean/MOM6/search?q=adjust_net_srestore_to_zero) |  True |                 |
-| [**ale_coordinate_config**](https://github.com/mom-ocean/MOM6/search?q=ale_coordinate_config) | 'FILE:ocean_vgr<br>id.nc,interface<br>s=zeta' | 'FILE:ocean_vgr<br>id.nc,dz' |
-| [**diag_coord_def_z**     ](https://github.com/mom-ocean/MOM6/search?q=diag_coord_def_z) | 'FILE:ocean_vgr<br>id.nc,interface<br>s=zeta' | 'WOA09' |
-| [**eqn_of_state**         ](https://github.com/mom-ocean/MOM6/search?q=eqn_of_state) |        'WRIGHT' |                 |
-| [**fluxconst**            ](https://github.com/mom-ocean/MOM6/search?q=fluxconst) |            0.11 |             0.5 |
-| [**grid_file**            ](https://github.com/mom-ocean/MOM6/search?q=grid_file) | 'ocean_hgrid.nc<br>' | 'ocean_hgrid_23<br>0424.nc' |
-| [**mask_srestore_under_i<br>ce**](https://github.com/mom-ocean/MOM6/search?q=mask_srestore_under_ice) |     False |                 |
-| [**max_delta_srestore**   ](https://github.com/mom-ocean/MOM6/search?q=max_delta_srestore) |             0.5 |                 |
-| [**niglobal**             ](https://github.com/mom-ocean/MOM6/search?q=niglobal) |             360 |             320 |
-| [**njglobal**             ](https://github.com/mom-ocean/MOM6/search?q=njglobal) |             300 |             384 |
-| [**nk**                   ](https://github.com/mom-ocean/MOM6/search?q=nk) |              50 |              60 |
-| [**restore_salinity**     ](https://github.com/mom-ocean/MOM6/search?q=restore_salinity) |            True |           False |
-| [**salt_restore_file**    ](https://github.com/mom-ocean/MOM6/search?q=salt_restore_file) | 'salt_sfc_resto<br>re.nc' |       |
-| [**srestore_as_sflux**    ](https://github.com/mom-ocean/MOM6/search?q=srestore_as_sflux) |            True |                 |
-| [**temp_salt_init_vertic<br>al_remap_only**](https://github.com/mom-ocean/MOM6/search?q=temp_salt_init_vertical_remap_only) | True |           |
-| [**temp_salt_z_init_file**](https://github.com/mom-ocean/MOM6/search?q=temp_salt_z_init_file) | 'ocean_temp_sal<br>t.res.nc' | 'WOA05_pottemp_<br>salt.nc' |
-| [**topo_file**            ](https://github.com/mom-ocean/MOM6/search?q=topo_file) |      'topog.nc' | 'ocean_topog_23<br>0424.nc' |
-| [**tripolar_n**           ](https://github.com/mom-ocean/MOM6/search?q=tripolar_n) |            True |           False |
-| [**use_contemp_abssal**   ](https://github.com/mom-ocean/MOM6/search?q=use_contemp_abssal) |           False |                 |
-| [**z_init_file_ptemp_var**](https://github.com/mom-ocean/MOM6/search?q=z_init_file_ptemp_var) |          'temp' |         'PTEMP' |
-| [**z_init_file_salt_var** ](https://github.com/mom-ocean/MOM6/search?q=z_init_file_salt_var) |          'salt' |          'SALT' |
+| &#128279; | Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/c2585c7ddcad8c56d44026835cfd62c2800b645f/MOM_input) | [MOM6-CICE6_gmom_jra/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/4f9e72a2c32ca4f6873a6f9cfad288038da945f4/MOM_input) |
+| :-: | :------------------------ | --------------: | --------------: |
+| [&#128279;](#mom6-ah_vel_scale){: mom6-ah_vel_scale } | [**ah_vel_scale**         ](https://github.com/mom-ocean/MOM6/search?q=ah_vel_scale) |                 |             0.0 |
+| [&#128279;](#mom6-ale_coordinate_config){: mom6-ale_coordinate_config } | [**ale_coordinate_config**](https://github.com/mom-ocean/MOM6/search?q=ale_coordinate_config) | 'FILE:ocean_vgr<br>id.nc,interface<br>s=zeta' | 'FILE:ocean_vgr<br>id.nc,dz' |
+| [&#128279;](#mom6-bad_val_ssh_max){: mom6-bad_val_ssh_max } | [**bad_val_ssh_max**      ](https://github.com/mom-ocean/MOM6/search?q=bad_val_ssh_max) |            50.0 |                 |
+| [&#128279;](#mom6-bad_val_sss_max){: mom6-bad_val_sss_max } | [**bad_val_sss_max**      ](https://github.com/mom-ocean/MOM6/search?q=bad_val_sss_max) |            75.0 |                 |
+| [&#128279;](#mom6-bad_val_sst_max){: mom6-bad_val_sst_max } | [**bad_val_sst_max**      ](https://github.com/mom-ocean/MOM6/search?q=bad_val_sst_max) |            55.0 |                 |
+| [&#128279;](#mom6-bad_val_sst_min){: mom6-bad_val_sst_min } | [**bad_val_sst_min**      ](https://github.com/mom-ocean/MOM6/search?q=bad_val_sst_min) |            -3.0 |                 |
+| [&#128279;](#mom6-bbl_use_eos){: mom6-bbl_use_eos } | [**bbl_use_eos**          ](https://github.com/mom-ocean/MOM6/search?q=bbl_use_eos) |                 |            True |
+| [&#128279;](#mom6-bt_thick_scheme){: mom6-bt_thick_scheme } | [**bt_thick_scheme**      ](https://github.com/mom-ocean/MOM6/search?q=bt_thick_scheme) |                 |  'FROM_BT_CONT' |
+| [&#128279;](#mom6-cfc_bc_file){: mom6-cfc_bc_file } | [**cfc_bc_file**          ](https://github.com/mom-ocean/MOM6/search?q=cfc_bc_file) |                 | 'cfc_atm_202303<br>10.nc' |
+| [&#128279;](#mom6-coord_config){: mom6-coord_config } | [**coord_config**         ](https://github.com/mom-ocean/MOM6/search?q=coord_config) |                 |          'none' |
+| [&#128279;](#mom6-debug){: mom6-debug } | [**debug**                ](https://github.com/mom-ocean/MOM6/search?q=debug) |                 |           False |
+| [&#128279;](#mom6-default_2018_answers){: mom6-default_2018_answers } | [**default_2018_answers** ](https://github.com/mom-ocean/MOM6/search?q=default_2018_answers) |                 |           False |
+| [&#128279;](#mom6-depth_scaled_khth){: mom6-depth_scaled_khth } | [**depth_scaled_khth**    ](https://github.com/mom-ocean/MOM6/search?q=depth_scaled_khth) |                 |           False |
+| [&#128279;](#mom6-diag_coord_def_z){: mom6-diag_coord_def_z } | [**diag_coord_def_z**     ](https://github.com/mom-ocean/MOM6/search?q=diag_coord_def_z) | 'FILE:ocean_vgr<br>id.nc,interface<br>s=zeta' | 'WOA09' |
+| [&#128279;](#mom6-energysavedays){: mom6-energysavedays } | [**energysavedays**       ](https://github.com/mom-ocean/MOM6/search?q=energysavedays) |                 |             1.0 |
+| [&#128279;](#mom6-fatal_unused_params){: mom6-fatal_unused_params } | [**fatal_unused_params**  ](https://github.com/mom-ocean/MOM6/search?q=fatal_unused_params) |            True |                 |
+| [&#128279;](#mom6-fix_ustar_gustless_bug){: mom6-fix_ustar_gustless_bug } | [**fix_ustar_gustless_bu<br>g**](https://github.com/mom-ocean/MOM6/search?q=fix_ustar_gustless_bug) |            |            True |
+| [&#128279;](#mom6-fluxconst){: mom6-fluxconst } | [**fluxconst**            ](https://github.com/mom-ocean/MOM6/search?q=fluxconst) |            0.11 |             0.5 |
+| [&#128279;](#mom6-gill_equatorial_ld){: mom6-gill_equatorial_ld } | [**gill_equatorial_ld**   ](https://github.com/mom-ocean/MOM6/search?q=gill_equatorial_ld) |                 |            True |
+| [&#128279;](#mom6-grid_file){: mom6-grid_file } | [**grid_file**            ](https://github.com/mom-ocean/MOM6/search?q=grid_file) | 'ocean_hgrid.nc<br>' | 'ocean_hgrid_23<br>0424.nc' |
+| [&#128279;](#mom6-grid_rotation_angle_bugs){: mom6-grid_rotation_angle_bugs } | [**grid_rotation_angle_b<br>ugs**](https://github.com/mom-ocean/MOM6/search?q=grid_rotation_angle_bugs) |          |           False |
+| [&#128279;](#mom6-hmix_min){: mom6-hmix_min } | [**hmix_min**             ](https://github.com/mom-ocean/MOM6/search?q=hmix_min) |                 |             2.0 |
+| [&#128279;](#mom6-int_tide_decay_scale){: mom6-int_tide_decay_scale } | [**int_tide_decay_scale** ](https://github.com/mom-ocean/MOM6/search?q=int_tide_decay_scale) |                 | 300.30030030030<br>03 |
+| [&#128279;](#mom6-interp_type2){: mom6-interp_type2 } | [**interp_type2**         ](https://github.com/mom-ocean/MOM6/search?q=interp_type2) |                 |         'LMD94' |
+| [&#128279;](#mom6-interpolate_res_fn){: mom6-interpolate_res_fn } | [**interpolate_res_fn**   ](https://github.com/mom-ocean/MOM6/search?q=interpolate_res_fn) |                 |           False |
+| [&#128279;](#mom6-kappa_shear_all_layer_tke_bug){: mom6-kappa_shear_all_layer_tke_bug } | [**kappa_shear_all_layer<br>_tke_bug**](https://github.com/mom-ocean/MOM6/search?q=kappa_shear_all_layer_tke_bug) |     |           False |
+| [&#128279;](#mom6-kappa_shear_iter_bug){: mom6-kappa_shear_iter_bug } | [**kappa_shear_iter_bug** ](https://github.com/mom-ocean/MOM6/search?q=kappa_shear_iter_bug) |                 |           False |
+| [&#128279;](#mom6-kdml){: mom6-kdml } | [**kdml**                 ](https://github.com/mom-ocean/MOM6/search?q=kdml) |                 |             0.0 |
+| [&#128279;](#mom6-kh_vel_scale){: mom6-kh_vel_scale } | [**kh_vel_scale**         ](https://github.com/mom-ocean/MOM6/search?q=kh_vel_scale) |                 |             0.0 |
+| [&#128279;](#mom6-khth){: mom6-khth } | [**khth**                 ](https://github.com/mom-ocean/MOM6/search?q=khth) |                 |             0.0 |
+| [&#128279;](#mom6-khth_max){: mom6-khth_max } | [**khth_max**             ](https://github.com/mom-ocean/MOM6/search?q=khth_max) |                 |             0.0 |
+| [&#128279;](#mom6-khtr_max){: mom6-khtr_max } | [**khtr_max**             ](https://github.com/mom-ocean/MOM6/search?q=khtr_max) |                 |             0.0 |
+| [&#128279;](#mom6-max_delta_srestore){: mom6-max_delta_srestore } | [**max_delta_srestore**   ](https://github.com/mom-ocean/MOM6/search?q=max_delta_srestore) |             0.5 |                 |
+| [&#128279;](#mom6-max_ent_it){: mom6-max_ent_it } | [**max_ent_it**           ](https://github.com/mom-ocean/MOM6/search?q=max_ent_it) |                 |              20 |
+| [&#128279;](#mom6-max_rino_it){: mom6-max_rino_it } | [**max_rino_it**          ](https://github.com/mom-ocean/MOM6/search?q=max_rino_it) |                 |              25 |
+| [&#128279;](#mom6-maxtrunc){: mom6-maxtrunc } | [**maxtrunc**             ](https://github.com/mom-ocean/MOM6/search?q=maxtrunc) |                 |               0 |
+| [&#128279;](#mom6-min_salinity){: mom6-min_salinity } | [**min_salinity**         ](https://github.com/mom-ocean/MOM6/search?q=min_salinity) |                 |             0.0 |
+| [&#128279;](#mom6-niglobal){: mom6-niglobal } | [**niglobal**             ](https://github.com/mom-ocean/MOM6/search?q=niglobal) |             360 |             320 |
+| [&#128279;](#mom6-nihalo){: mom6-nihalo } | [**nihalo**               ](https://github.com/mom-ocean/MOM6/search?q=nihalo) |                 |               4 |
+| [&#128279;](#mom6-njglobal){: mom6-njglobal } | [**njglobal**             ](https://github.com/mom-ocean/MOM6/search?q=njglobal) |             300 |             384 |
+| [&#128279;](#mom6-njhalo){: mom6-njhalo } | [**njhalo**               ](https://github.com/mom-ocean/MOM6/search?q=njhalo) |                 |               4 |
+| [&#128279;](#mom6-nk){: mom6-nk } | [**nk**                   ](https://github.com/mom-ocean/MOM6/search?q=nk) |              50 |              60 |
+| [&#128279;](#mom6-prandtl_turb){: mom6-prandtl_turb } | [**prandtl_turb**         ](https://github.com/mom-ocean/MOM6/search?q=prandtl_turb) |                 |             1.0 |
+| [&#128279;](#mom6-remap_uv_using_old_alg){: mom6-remap_uv_using_old_alg } | [**remap_uv_using_old_al<br>g**](https://github.com/mom-ocean/MOM6/search?q=remap_uv_using_old_alg) |            |           False |
+| [&#128279;](#mom6-restore_salinity){: mom6-restore_salinity } | [**restore_salinity**     ](https://github.com/mom-ocean/MOM6/search?q=restore_salinity) |            True |           False |
+| [&#128279;](#mom6-salt_restore_file){: mom6-salt_restore_file } | [**salt_restore_file**    ](https://github.com/mom-ocean/MOM6/search?q=salt_restore_file) | 'salt_sfc_resto<br>re.nc' |       |
+| [&#128279;](#mom6-simple_tke_to_kd){: mom6-simple_tke_to_kd } | [**simple_tke_to_kd**     ](https://github.com/mom-ocean/MOM6/search?q=simple_tke_to_kd) |                 |            True |
+| [&#128279;](#mom6-smag_bi_const){: mom6-smag_bi_const } | [**smag_bi_const**        ](https://github.com/mom-ocean/MOM6/search?q=smag_bi_const) |                 |            0.06 |
+| [&#128279;](#mom6-srestore_as_sflux){: mom6-srestore_as_sflux } | [**srestore_as_sflux**    ](https://github.com/mom-ocean/MOM6/search?q=srestore_as_sflux) |            True |                 |
+| [&#128279;](#mom6-temp_salt_init_vertical_remap_only){: mom6-temp_salt_init_vertical_remap_only } | [**temp_salt_init_vertic<br>al_remap_only**](https://github.com/mom-ocean/MOM6/search?q=temp_salt_init_vertical_remap_only) | True |           |
+| [&#128279;](#mom6-temp_salt_z_init_file){: mom6-temp_salt_z_init_file } | [**temp_salt_z_init_file**](https://github.com/mom-ocean/MOM6/search?q=temp_salt_z_init_file) | 'ocean_temp_sal<br>t.res.nc' | 'WOA05_pottemp_<br>salt.nc' |
+| [&#128279;](#mom6-tolerance_ent){: mom6-tolerance_ent } | [**tolerance_ent**        ](https://github.com/mom-ocean/MOM6/search?q=tolerance_ent) |                 |           1e-05 |
+| [&#128279;](#mom6-topo_file){: mom6-topo_file } | [**topo_file**            ](https://github.com/mom-ocean/MOM6/search?q=topo_file) |                 | 'ocean_topog_23<br>0424.nc' |
+| [&#128279;](#mom6-tripolar_n){: mom6-tripolar_n } | [**tripolar_n**           ](https://github.com/mom-ocean/MOM6/search?q=tripolar_n) |            True |           False |
+| [&#128279;](#mom6-use_cfc_cap){: mom6-use_cfc_cap } | [**use_cfc_cap**          ](https://github.com/mom-ocean/MOM6/search?q=use_cfc_cap) |                 |           False |
+| [&#128279;](#mom6-use_gm_work_bug){: mom6-use_gm_work_bug } | [**use_gm_work_bug**      ](https://github.com/mom-ocean/MOM6/search?q=use_gm_work_bug) |                 |           False |
+| [&#128279;](#mom6-use_land_mask_for_hvisc){: mom6-use_land_mask_for_hvisc } | [**use_land_mask_for_hvi<br>sc**](https://github.com/mom-ocean/MOM6/search?q=use_land_mask_for_hvisc) |           |            True |
+| [&#128279;](#mom6-use_psurf_in_eos){: mom6-use_psurf_in_eos } | [**use_psurf_in_eos**     ](https://github.com/mom-ocean/MOM6/search?q=use_psurf_in_eos) |                 |            True |
+| [&#128279;](#mom6-visc_res_scale_coef){: mom6-visc_res_scale_coef } | [**visc_res_scale_coef**  ](https://github.com/mom-ocean/MOM6/search?q=visc_res_scale_coef) |                 |             0.4 |
+| [&#128279;](#mom6-z_init_file_ptemp_var){: mom6-z_init_file_ptemp_var } | [**z_init_file_ptemp_var**](https://github.com/mom-ocean/MOM6/search?q=z_init_file_ptemp_var) |          'temp' |         'PTEMP' |
+| [&#128279;](#mom6-z_init_file_salt_var){: mom6-z_init_file_salt_var } | [**z_init_file_salt_var** ](https://github.com/mom-ocean/MOM6/search?q=z_init_file_salt_var) |                 |          'SALT' |
+| [&#128279;](#mom6-z_init_remap_old_alg){: mom6-z_init_remap_old_alg } | [**z_init_remap_old_alg** ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_old_alg) |                 |           False |
