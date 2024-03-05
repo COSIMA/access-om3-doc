@@ -5,18 +5,23 @@
 [submodule "ACCESS-OM2_1deg_jra55_ryf"]
 	path = configs/ACCESS-OM2_1deg_jra55_ryf
 	url = https://github.com/COSIMA/1deg_jra55_ryf
+	branch = master
 [submodule "configs/mom6-om4-025"]
 	path = configs/mom6-om4-025
 	url = https://github.com/COSIMA/mom6-om4-025
+	branch = master
 [submodule "configs/mom6-panan"]
 	path = configs/mom6-panan
 	url = https://github.com/COSIMA/mom6-panan
+	branch = master
 [submodule "configs/mom6-eac"]
 	path = configs/mom6-eac
 	url = https://github.com/COSIMA/mom6-eac
+	branch = main
 [submodule "MOM6-examples"]
 	path = configs/MOM6-examples
 	url = https://github.com/NOAA-GFDL/MOM6-examples.git
+	branch = dev/gfdl
 [submodule "configs/MOM6-CICE6_gmom_jra"]
 	path = configs/MOM6-CICE6_gmom_jra
 	url = https://github.com/COSIMA/MOM6-CICE6.git
