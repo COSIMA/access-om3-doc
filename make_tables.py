@@ -124,13 +124,6 @@ savetables( [
         'https://github.com/mom-ocean/MOM6/search?q=')
 
 savetables( [
-        'MOM6-CICE6_iss83_MOM_input_update/MOM_input',
-        'mom6-om4-025/MOM_input',
-        ],
-        'MOM_input/MOM6-CICE6_iss83_MOM_input_update',
-        'https://github.com/mom-ocean/MOM6/search?q=')
-
-savetables( [
         'mom6-panan/MOM_input',
         'mom6-eac/MOM_input'
         ],
