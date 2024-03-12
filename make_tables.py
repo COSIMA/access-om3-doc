@@ -105,6 +105,27 @@ savetables( [
         'https://github.com/mom-ocean/MOM6/search?q=')
 
 savetables( [
+        'MOM6-CICE6-WW3_1deg_jra55do_ryf/MOM_input',
+        'MOM6-CICE6-WW3_1deg_jra55do_iaf/MOM_input',
+        ],
+        'MOM_input/MOM6-CICE6-WW3',
+        'https://github.com/mom-ocean/MOM6/search?q=')
+
+savetables( [
+        'MOM6-CICE6-WW3_1deg_jra55do_ryf/MOM_input',
+        'MOM6-CICE6-WW3_gmom_jra_wd/MOM_input',
+        ],
+        'MOM_input/MOM6-CICE6-WW3-CESM',
+        'https://github.com/mom-ocean/MOM6/search?q=')
+
+savetables( [
+        'MOM6-CICE6_1deg_jra55do_ryf/MOM_input',
+        'MOM6-CICE6-WW3_1deg_jra55do_ryf/MOM_input',
+        ],
+        'MOM_input/MOM6-CICE6_MOM6-CICE6-WW3',
+        'https://github.com/mom-ocean/MOM6/search?q=')
+
+savetables( [
         'MOM6-CICE6_1deg_jra55do_ryf/MOM_input',
         'mom6-om4-025/MOM_input',
         'mom6-panan/MOM_input',
