@@ -30,3 +30,15 @@
 	path = configs/MOM6-CICE6_1deg_jra55do_iaf
 	url = https://github.com/COSIMA/MOM6-CICE6.git
 	branch = 1deg_jra55do_iaf
+[submodule "configs/MOM6-CICE6-WW3_1deg_jra55do_ryf"]
+	path = configs/MOM6-CICE6-WW3_1deg_jra55do_ryf
+	url = https://github.com/COSIMA/MOM6-CICE6-WW3.git
+	branch = 1deg_jra55do_ryf
+[submodule "configs/MOM6-CICE6-WW3_1deg_jra55do_iaf"]
+	path = configs/MOM6-CICE6-WW3_1deg_jra55do_iaf
+	url = https://github.com/COSIMA/MOM6-CICE6-WW3.git
+	branch = 1deg_jra55do_iaf
+[submodule "configs/MOM6-CICE6-WW3_gmom_jra_wd"]
+	path = configs/MOM6-CICE6-WW3_gmom_jra_wd
+	url = https://github.com/COSIMA/MOM6-CICE6-WW3.git
+	branch = gmom_jra_wd
