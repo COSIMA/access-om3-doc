@@ -42,3 +42,7 @@
 	path = configs/MOM6-CICE6-WW3_gmom_jra_wd
 	url = https://github.com/COSIMA/MOM6-CICE6-WW3.git
 	branch = gmom_jra_wd
+[submodule "configs/MOM6-CICE6-025deg_jra55do_ryf_iss101"]
+	path = configs/MOM6-CICE6-025deg_jra55do_ryf_iss101
+	url = https://github.com/COSIMA/MOM6-CICE6.git
+	branch = 025deg_jra55do_ryf_iss101
