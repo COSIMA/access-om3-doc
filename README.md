@@ -18,7 +18,7 @@ You should then be able to generate access-om3-doc.pdf using `latex`. You'll als
 To update a previous clone of this repository to the latest version, you will need to do
 ```bash
 git pull
-git submodule update --init --recursive  # update all the submodules
+git submodule update --init  # update all the submodules
 ```
 
 ## File/directory layout

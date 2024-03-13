@@ -1,0 +1,2 @@
+diff,group,variable,MOM6-CICE6_1deg_jra55do_ryf/ice_in,MOM6-CICE6_1deg_jra55do_iaf/ice_in,MOM6-CICE6_025deg_jra55do_ryf_iss101/ice_in
+*,"=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=setup_nml"", ""&setup_nml"")","=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=use_leap_years"", ""use_leap_years"")",,True,
