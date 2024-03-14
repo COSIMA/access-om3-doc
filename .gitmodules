@@ -46,3 +46,11 @@
 	path = configs/MOM6-CICE6_025deg_jra55do_ryf_iss101
 	url = https://github.com/COSIMA/MOM6-CICE6.git
 	branch = 025deg_jra55do_ryf_iss101
+[submodule "configs/ACCESS-OM2_025deg_jra55_ryf"]
+	path = configs/ACCESS-OM2_025deg_jra55_ryf
+	url = https://github.com/COSIMA/025deg_jra55_ryf
+	branch = master
+[submodule "configs/ACCESS-OM2_01deg_jra55_ryf"]
+	path = configs/ACCESS-OM2_01deg_jra55_ryf
+	url = https://github.com/COSIMA/01deg_jra55_ryf
+	branch = master

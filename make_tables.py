@@ -158,3 +158,12 @@ savetables( [
         ],
         'MOM_input/mom6_regional',
         'https://github.com/mom-ocean/MOM6/search?q=')
+
+savetables( [
+        'ACCESS-OM2_1deg_jra55_ryf/ocean/input.nml',
+        'ACCESS-OM2_025deg_jra55_ryf/ocean/input.nml',
+        'ACCESS-OM2_01deg_jra55_ryf/ocean/input.nml',
+        ],
+        'MOM_input/ACCESS-OM2',
+        'https://github.com/mom-ocean/MOM5/search?q=')
+
