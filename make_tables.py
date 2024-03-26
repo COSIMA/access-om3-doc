@@ -140,6 +140,7 @@ savetables( [
         # 'mom6-eac/MOM_input',  # no relevant differences from mom6-panan
         #'ACCESS-OM2_1deg_jra55_ryf/ocean/input.nml',
         'MOM6-examples/ocean_only/global/MOM_input',
+        # 'MOM6-examples/ocean_only/global/MOM_parameter_doc.short',
         ],
         'MOM_input/mom6',
         'https://github.com/mom-ocean/MOM6/search?q=')
@@ -174,3 +175,10 @@ savetables( [
         'MOM_input/ACCESS-OM2-1-025',
         'https://github.com/mom-ocean/MOM5/search?q=')
 
+savetables( [
+        'ACCESS-OM2_1deg_jra55_ryf/ice/cice_in.nml',
+        'ACCESS-OM2_025deg_jra55_ryf/ice/cice_in.nml',
+        'ACCESS-OM2_01deg_jra55_ryf/ice/cice_in.nml',
+        ],
+        'ice_in/ACCESS-OM2-1-025-01',
+        'https://github.com/COSIMA/cice5/search?q=')
