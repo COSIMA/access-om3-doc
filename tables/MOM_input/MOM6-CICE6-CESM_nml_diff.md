@@ -1,4 +1,4 @@
-| Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/c2585c7ddcad8c56d44026835cfd62c2800b645f/MOM_input) | [MOM6-CICE6_gmom_jra/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/4f9e72a2c32ca4f6873a6f9cfad288038da945f4/MOM_input) |
+| Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/1bad3aee5400b908535fea7aff5f8073f0c7876d/MOM_input) | [MOM6-CICE6_gmom_jra/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/4f9e72a2c32ca4f6873a6f9cfad288038da945f4/MOM_input) |
 | :------------------------ | --------------: | --------------: |
 | [**ah_vel_scale**         ](https://github.com/mom-ocean/MOM6/search?q=ah_vel_scale) |                 |             0.0 |
 | [**ale_coordinate_config**](https://github.com/mom-ocean/MOM6/search?q=ale_coordinate_config) | 'FILE:ocean_vgr<br>id.nc,interface<br>s=zeta' | 'FILE:ocean_vgr<br>id.nc,dz' |
