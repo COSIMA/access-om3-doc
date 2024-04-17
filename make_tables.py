@@ -197,3 +197,14 @@ savetables( [
         ],
         'MOM_input/GFDL-OM5',
         'https://github.com/mom-ocean/MOM6/search?q=')
+
+savetables( [
+        # 'MOM6-examples/ocean_only/global/MOM_parameter_doc.all',
+        # 'MOM6-examples/ice_ocean_SIS2/OM_1deg/MOM_parameter_doc.all',
+        'MOM6-examples/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all',
+        'MOM6-examples/ice_ocean_SIS2/OM4_025/MOM_parameter_doc.all',
+        'GFDL-OM5/b00_MOM_parameter_doc.all',
+        'GFDL-OM5/b03_MOM_parameter_doc.all'
+        ],
+        'MOM_input/GFDL-OM4-OM5',
+        'https://github.com/mom-ocean/MOM6/search?q=')
