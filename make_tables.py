@@ -190,3 +190,10 @@ savetables( [
         ],
         'ice_in/ACCESS-OM2-1-025-01',
         'https://github.com/COSIMA/cice5/search?q=')
+
+savetables( [
+        'GFDL-OM5/b00_MOM_parameter_doc.all',
+        'GFDL-OM5/b03_MOM_parameter_doc.all'
+        ],
+        'MOM_input/GFDL-OM5',
+        'https://github.com/mom-ocean/MOM6/search?q=')
