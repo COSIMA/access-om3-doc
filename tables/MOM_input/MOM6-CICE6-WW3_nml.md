@@ -1,4 +1,4 @@
-| Variable                  | [MOM6-CICE6-WW3_1deg_jra55do_ryf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6-WW3/blob/a61ee25a1e0096af2352a22afe60f16fe70df337/MOM_input) | [MOM6-CICE6-WW3_1deg_jra55do_iaf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6-WW3/blob/ce77654b02b05f3051dbb55130317ae7d58b0433/MOM_input) |
+| Variable                  | [MOM6-CICE6-WW3_1deg_jra55do_ryf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6-WW3/blob/2f1a525a0c771adf7d31a516a0763625daadf2b8/MOM_input) | [MOM6-CICE6-WW3_1deg_jra55do_iaf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6-WW3/blob/d3cacbd442d8f5700e3ebc050698bcd8989a8173/MOM_input) |
 | :------------------------ | --------------: | --------------: |
 | [adjust_net_fresh_wate<br>r_to_zero](https://github.com/mom-ocean/MOM6/search?q=adjust_net_fresh_water_to_zero) |   True |            True |
 | [adjust_net_srestore_t<br>o_zero](https://github.com/mom-ocean/MOM6/search?q=adjust_net_srestore_to_zero) |      True |            True |
