@@ -1,4 +1,4 @@
-| Variable                  | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_05/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/fde97e582820f4ff24853e7ab1108b2d8e580d58/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all) | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_025/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/fde97e582820f4ff24853e7ab1108b2d8e580d58/ice_ocean_SIS2/OM4_025/MOM_parameter_doc.all) | GFDL-OM5/<br>b00_MOM_parameter_doc.all | GFDL-OM5/<br>b03_MOM_parameter_doc.all |
+| Variable                  | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_05/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/fde97e582820f4ff24853e7ab1108b2d8e580d58/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all) | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_025/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/fde97e582820f4ff24853e7ab1108b2d8e580d58/ice_ocean_SIS2/OM4_025/MOM_parameter_doc.all) | GFDL-OM5/<br>b00_MOM_parameter_doc.all | GFDL-OM5/<br>b03_update_MOM_parameter_doc.all |
 | :------------------------ | --------------: | --------------: | --------------: | --------------: |
 | [**barotropic_2018_answe<br>rs**](https://github.com/mom-ocean/MOM6/search?q=barotropic_2018_answers) |           |                 |           False |                 |
 | [**barotropic_answer_dat<br>e**](https://github.com/mom-ocean/MOM6/search?q=barotropic_answer_date) |   20181231 |        20181231 |        99991231 |        20231231 |
@@ -120,3 +120,5 @@
 | [**vertex_shear**         ](https://github.com/mom-ocean/MOM6/search?q=vertex_shear) |           False |           False |           False |            True |
 | [**visc_res_fn_power**    ](https://github.com/mom-ocean/MOM6/search?q=visc_res_fn_power) |             100 |               2 |               2 |               2 |
 | [**write_geom**           ](https://github.com/mom-ocean/MOM6/search?q=write_geom) |               1 |               0 |               0 |               0 |
+| [**z_init_remap_general** ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_general) |           False |           False |           False |            True |
+| [**z_init_remap_old_alg** ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_old_alg) |            True |            True |            True |           False |

@@ -1,4 +1,4 @@
-| Variable                  | GFDL-OM5/<br>b00_MOM_parameter_doc.all | GFDL-OM5/<br>b03_MOM_parameter_doc.all |
+| Variable                  | GFDL-OM5/<br>b00_MOM_parameter_doc.all | GFDL-OM5/<br>b03_update_MOM_parameter_doc.all |
 | :------------------------ | --------------: | --------------: |
 | [**barotropic_2018_answe<br>rs**](https://github.com/mom-ocean/MOM6/search?q=barotropic_2018_answers) |     False |                 |
 | [**barotropic_answer_dat<br>e**](https://github.com/mom-ocean/MOM6/search?q=barotropic_answer_date) |   99991231 |        20231231 |
@@ -66,3 +66,5 @@
 | [**vert_friction_2018_an<br>swers**](https://github.com/mom-ocean/MOM6/search?q=vert_friction_2018_answers) |  False |                 |
 | [**vert_friction_answer_<br>date**](https://github.com/mom-ocean/MOM6/search?q=vert_friction_answer_date) | 99991231 |       20231231 |
 | [**vertex_shear**         ](https://github.com/mom-ocean/MOM6/search?q=vertex_shear) |           False |            True |
+| [**z_init_remap_general** ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_general) |           False |            True |
+| [**z_init_remap_old_alg** ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_old_alg) |            True |           False |

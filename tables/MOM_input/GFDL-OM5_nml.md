@@ -1,4 +1,4 @@
-| Variable                  | GFDL-OM5/<br>b00_MOM_parameter_doc.all | GFDL-OM5/<br>b03_MOM_parameter_doc.all |
+| Variable                  | GFDL-OM5/<br>b00_MOM_parameter_doc.all | GFDL-OM5/<br>b03_update_MOM_parameter_doc.all |
 | :------------------------ | --------------: | --------------: |
 | [add_les_viscosity        ](https://github.com/mom-ocean/MOM6/search?q=add_les_viscosity) |           False |           False |
 | [adiabatic                ](https://github.com/mom-ocean/MOM6/search?q=adiabatic) |           False |           False |
@@ -682,6 +682,6 @@
 | [z_init_file_salt_var     ](https://github.com/mom-ocean/MOM6/search?q=z_init_file_salt_var) |          's_an' |          's_an' |
 | [z_init_homogenize        ](https://github.com/mom-ocean/MOM6/search?q=z_init_homogenize) |           False |           False |
 | [z_init_remap_full_col<br>umn](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_full_column) |        False |           False |
-| [z_init_remap_general     ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_general) |           False |           False |
-| [z_init_remap_old_alg     ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_old_alg) |            True |            True |
+| [**z_init_remap_general** ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_general) |           False |            True |
+| [**z_init_remap_old_alg** ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_old_alg) |            True |           False |
 | [z_init_remapping_sche<br>me](https://github.com/mom-ocean/MOM6/search?q=z_init_remapping_scheme) |     'PPM_IH4' |       'PPM_IH4' |

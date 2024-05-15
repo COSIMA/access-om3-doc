@@ -1,4 +1,4 @@
-| Variable                  | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_05/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/fde97e582820f4ff24853e7ab1108b2d8e580d58/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all) | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_025/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/fde97e582820f4ff24853e7ab1108b2d8e580d58/ice_ocean_SIS2/OM4_025/MOM_parameter_doc.all) | GFDL-OM5/<br>b00_MOM_parameter_doc.all | GFDL-OM5/<br>b03_MOM_parameter_doc.all |
+| Variable                  | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_05/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/fde97e582820f4ff24853e7ab1108b2d8e580d58/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all) | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_025/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/fde97e582820f4ff24853e7ab1108b2d8e580d58/ice_ocean_SIS2/OM4_025/MOM_parameter_doc.all) | GFDL-OM5/<br>b00_MOM_parameter_doc.all | GFDL-OM5/<br>b03_update_MOM_parameter_doc.all |
 | :------------------------ | --------------: | --------------: | --------------: | --------------: |
 | [add_les_viscosity        ](https://github.com/mom-ocean/MOM6/search?q=add_les_viscosity) |           False |           False |           False |           False |
 | [adiabatic                ](https://github.com/mom-ocean/MOM6/search?q=adiabatic) |           False |           False |           False |           False |
@@ -702,6 +702,6 @@
 | [z_init_file_salt_var     ](https://github.com/mom-ocean/MOM6/search?q=z_init_file_salt_var) |          's_an' |          's_an' |          's_an' |          's_an' |
 | [z_init_homogenize        ](https://github.com/mom-ocean/MOM6/search?q=z_init_homogenize) |           False |           False |           False |           False |
 | [z_init_remap_full_col<br>umn](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_full_column) |        False |           False |           False |           False |
-| [z_init_remap_general     ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_general) |           False |           False |           False |           False |
-| [z_init_remap_old_alg     ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_old_alg) |            True |            True |            True |            True |
+| [**z_init_remap_general** ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_general) |           False |           False |           False |            True |
+| [**z_init_remap_old_alg** ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_old_alg) |            True |            True |            True |           False |
 | [z_init_remapping_sche<br>me](https://github.com/mom-ocean/MOM6/search?q=z_init_remapping_scheme) |     'PPM_IH4' |       'PPM_IH4' |       'PPM_IH4' |       'PPM_IH4' |
