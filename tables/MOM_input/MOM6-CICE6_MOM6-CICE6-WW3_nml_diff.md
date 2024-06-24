@@ -1,11 +1,8 @@
-| Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/1bad3aee5400b908535fea7aff5f8073f0c7876d/MOM_input) | [MOM6-CICE6-WW3_1deg_jra55do_ryf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6-WW3/blob/2f1a525a0c771adf7d31a516a0763625daadf2b8/MOM_input) |
+| Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/1bad3aee5400b908535fea7aff5f8073f0c7876d/MOM_input) | [MOM6-CICE6-WW3_1deg_jra55do_ryf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6-WW3/blob/48b09abc9dfb832cb44a32a0eacd2b92d6308de4/MOM_input) |
 | :------------------------ | --------------: | --------------: |
 | [**adjust_net_srestore_t<br>o_zero**](https://github.com/mom-ocean/MOM6/search?q=adjust_net_srestore_to_zero) |       |            True |
 | [**ah_vel_scale**         ](https://github.com/mom-ocean/MOM6/search?q=ah_vel_scale) |                 |             0.0 |
-| [**bad_val_ssh_max**      ](https://github.com/mom-ocean/MOM6/search?q=bad_val_ssh_max) |            50.0 |                 |
-| [**bad_val_sss_max**      ](https://github.com/mom-ocean/MOM6/search?q=bad_val_sss_max) |            75.0 |                 |
-| [**bad_val_sst_max**      ](https://github.com/mom-ocean/MOM6/search?q=bad_val_sst_max) |            55.0 |                 |
-| [**bad_val_sst_min**      ](https://github.com/mom-ocean/MOM6/search?q=bad_val_sst_min) |            -3.0 |                 |
+| [**bad_val_column_thickn<br>ess**](https://github.com/mom-ocean/MOM6/search?q=bad_val_column_thickness) |          |             0.0 |
 | [**bbl_use_eos**          ](https://github.com/mom-ocean/MOM6/search?q=bbl_use_eos) |                 |            True |
 | [**bt_thick_scheme**      ](https://github.com/mom-ocean/MOM6/search?q=bt_thick_scheme) |                 |  'FROM_BT_CONT' |
 | [**cfc_bc_file**          ](https://github.com/mom-ocean/MOM6/search?q=cfc_bc_file) |                 | 'cfc_atm_202303<br>10.nc' |
@@ -14,6 +11,7 @@
 | [**default_2018_answers** ](https://github.com/mom-ocean/MOM6/search?q=default_2018_answers) |                 |           False |
 | [**depth_scaled_khth**    ](https://github.com/mom-ocean/MOM6/search?q=depth_scaled_khth) |                 |           False |
 | [**energysavedays**       ](https://github.com/mom-ocean/MOM6/search?q=energysavedays) |                 |             1.0 |
+| [**eps_omesh**            ](https://github.com/mom-ocean/MOM6/search?q=eps_omesh) |                 |           1e-13 |
 | [**eqn_of_state**         ](https://github.com/mom-ocean/MOM6/search?q=eqn_of_state) |                 |        'WRIGHT' |
 | [**fatal_unused_params**  ](https://github.com/mom-ocean/MOM6/search?q=fatal_unused_params) |            True |                 |
 | [**fix_ustar_gustless_bu<br>g**](https://github.com/mom-ocean/MOM6/search?q=fix_ustar_gustless_bug) |            |            True |
@@ -33,6 +31,7 @@
 | [**kpp_lt_k_method**      ](https://github.com/mom-ocean/MOM6/search?q=kpp_lt_k_method) |                 |          'VR12' |
 | [**kpp_lt_vt2_method**    ](https://github.com/mom-ocean/MOM6/search?q=kpp_lt_vt2_method) |                 |          'VR12' |
 | [**mask_srestore_under_i<br>ce**](https://github.com/mom-ocean/MOM6/search?q=mask_srestore_under_ice) |           |           False |
+| [**max_delta_srestore**   ](https://github.com/mom-ocean/MOM6/search?q=max_delta_srestore) |             0.5 |                 |
 | [**max_ent_it**           ](https://github.com/mom-ocean/MOM6/search?q=max_ent_it) |                 |              20 |
 | [**max_rino_it**          ](https://github.com/mom-ocean/MOM6/search?q=max_rino_it) |                 |              25 |
 | [**maxtrunc**             ](https://github.com/mom-ocean/MOM6/search?q=maxtrunc) |                 |               0 |
@@ -56,4 +55,5 @@
 | [**visc_res_scale_coef**  ](https://github.com/mom-ocean/MOM6/search?q=visc_res_scale_coef) |                 |             0.4 |
 | [**wave_method**          ](https://github.com/mom-ocean/MOM6/search?q=wave_method) |                 |       'EFACTOR' |
 | [**z_init_file_salt_var** ](https://github.com/mom-ocean/MOM6/search?q=z_init_file_salt_var) |                 |          'salt' |
+| [**z_init_remap_general** ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_general) |                 |            True |
 | [**z_init_remap_old_alg** ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_old_alg) |                 |           False |
