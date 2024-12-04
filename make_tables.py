@@ -91,7 +91,7 @@ savetables([
 
 savetables( [
         'MOM6-CICE6_1deg_jra55do_ryf/ice_in',
-        'MOM6-CICE6_025deg_jra55do_ryf_iss101/ice_in',
+        'MOM6-CICE6_025deg_jra55do_ryf/ice_in',
         'ACCESS-OM2_025deg_jra55_ryf/ice/cice_in.nml',
         ],
         'ice_in/cice_1_025',
@@ -100,7 +100,7 @@ savetables( [
 savetables( [
         'MOM6-CICE6_1deg_jra55do_ryf/ice_in',
         'MOM6-CICE6_1deg_jra55do_iaf/ice_in',
-        'MOM6-CICE6_025deg_jra55do_ryf_iss101/ice_in',
+        'MOM6-CICE6_025deg_jra55do_ryf/ice_in',
         ],
         'ice_in/MOM6-CICE6',
         'https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=')
@@ -108,7 +108,7 @@ savetables( [
 savetables( [
         'MOM6-CICE6_1deg_jra55do_ryf/MOM_input',
         'MOM6-CICE6_1deg_jra55do_iaf/MOM_input',
-        'MOM6-CICE6_025deg_jra55do_ryf_iss101/MOM_input',
+        'MOM6-CICE6_025deg_jra55do_ryf/MOM_input',
         ],
         'MOM_input/MOM6-CICE6',
         'https://github.com/mom-ocean/MOM6/search?q=')

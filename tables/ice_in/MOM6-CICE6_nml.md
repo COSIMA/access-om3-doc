@@ -1,17 +1,17 @@
-| Group                 | Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>ice_in](https://github.com/COSIMA/MOM6-CICE6/blob/1bad3aee5400b908535fea7aff5f8073f0c7876d/ice_in) | [MOM6-CICE6_1deg_jra55do_iaf/<br>ice_in](https://github.com/COSIMA/MOM6-CICE6/blob/de4a6c5cff17b2e7d312a8a05944711b32a9019a/ice_in) | [MOM6-CICE6_025deg_jra55do_ryf_iss101/<br>ice_in](https://github.com/COSIMA/MOM6-CICE6/blob/185b44f46f10aa4700fd3b094dfa7fec9484f1e9/ice_in) |
+| Group                 | Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>ice_in](https://github.com/ACCESS-NRI/access-om3-configs/blob/38c039f4b87e6394ff54adde1986686195bb12e3/ice_in) | [MOM6-CICE6_1deg_jra55do_iaf/<br>ice_in](https://github.com/ACCESS-NRI/access-om3-configs/blob/236a5f8ea0fcbc1194bd1c5c90785bc40881ff6f/ice_in) | [MOM6-CICE6_025deg_jra55do_ryf/<br>ice_in](https://github.com/ACCESS-NRI/access-om3-configs/blob/f37396e0047d59ddafefb435c08073a0256cfcef/ice_in) |
 | :-------------------- | :------------------------ | --------------: | --------------: | --------------: |
-| [domain_nml           ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=domain_nml) | [**block_size_x**         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=block_size_x) |              16 |              16 |              30 |
-|                       | [**block_size_y**         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=block_size_y) |              15 |              15 |              27 |
+| [domain_nml           ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=domain_nml) | [**block_size_x**         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=block_size_x) |              15 |              15 |              60 |
+|                       | [**block_size_y**         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=block_size_y) |              20 |              20 |              54 |
 |                       | [**distribution_type**    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=distribution_type) |     'cartesian' |     'cartesian' |    'roundrobin' |
 |                       | [distribution_wght        ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=distribution_wght) |      'latitude' |      'latitude' |      'latitude' |
 |                       | [maskhalo_bound           ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=maskhalo_bound) |            True |            True |            True |
 |                       | [maskhalo_dyn             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=maskhalo_dyn) |            True |            True |            True |
 |                       | [maskhalo_remap           ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=maskhalo_remap) |            True |            True |            True |
-|                       | [max_blocks               ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=max_blocks) |              10 |              10 |              10 |
+|                       | [**max_blocks**           ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=max_blocks) |              15 |              15 |              -1 |
 |                       | [ns_boundary_type         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ns_boundary_type) |       'tripole' |       'tripole' |       'tripole' |
 |                       | [**nx_global**            ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=nx_global) |             360 |             360 |            1440 |
 |                       | [**ny_global**            ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ny_global) |             300 |             300 |            1080 |
-|                       | [**processor_shape**      ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=processor_shape) |     'slenderX2' |     'slenderX2' |    'square-ice' |
+|                       | [**processor_shape**      ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=processor_shape) |     'slenderX1' |     'slenderX1' |    'square-ice' |
 | [dynamics_nml         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=dynamics_nml) | [advection                ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=advection) |         'remap' |         'remap' |         'remap' |
 |                       | [ssh_stress               ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ssh_stress) |       'coupled' |       'coupled' |       'coupled' |
 | [forcing_nml          ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=forcing_nml) | [emissivity               ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=emissivity) |            0.95 |            0.95 |            0.95 |
@@ -20,15 +20,15 @@
 |                       | [tfrz_option              ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=tfrz_option) |   'linear_salt' |   'linear_salt' |   'linear_salt' |
 |                       | [update_ocn_f             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=update_ocn_f) |            True |            True |            True |
 |                       | [ustar_min                ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ustar_min) |          0.0005 |          0.0005 |          0.0005 |
-| [grid_nml             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_nml) | [bathymetry_file          ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=bathymetry_file) | './input/topog.<br>nc' | './input/topog.<br>nc' | './input/topog.<br>nc' |
+| [grid_nml             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_nml) | [bathymetry_file          ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=bathymetry_file) | './INPUT/topog.<br>nc' | './INPUT/topog.<br>nc' | './INPUT/topog.<br>nc' |
 |                       | [grid_atm                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_atm) |             'A' |             'A' |             'A' |
-|                       | [grid_file                ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_file) | './input/grid.n<br>c' | './input/grid.n<br>c' | './input/grid.n<br>c' |
+|                       | [grid_file                ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_file) | './INPUT/grid.n<br>c' | './INPUT/grid.n<br>c' | './INPUT/grid.n<br>c' |
 |                       | [grid_format              ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_format) |            'nc' |            'nc' |            'nc' |
 |                       | [grid_ice                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_ice) |             'B' |             'B' |             'B' |
 |                       | [grid_ocn                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_ocn) |             'A' |             'A' |             'A' |
 |                       | [grid_type                ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_type) |       'tripole' |       'tripole' |       'tripole' |
 |                       | [kcatbound                ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=kcatbound) |               0 |               0 |               0 |
-|                       | [kmt_file                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=kmt_file) | './input/kmt.nc<br>' | './input/kmt.nc<br>' | './input/kmt.nc<br>' |
+|                       | [kmt_file                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=kmt_file) | './INPUT/kmt.nc<br>' | './INPUT/kmt.nc<br>' | './INPUT/kmt.nc<br>' |
 |                       | [nblyr                    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=nblyr) |               1 |               1 |               1 |
 |                       | [ncat                     ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ncat) |               5 |               5 |               5 |
 |                       | [nfsd                     ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=nfsd) |               1 |               1 |               1 |
@@ -49,6 +49,18 @@
 |                       | [f_dsnow                  ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_dsnow) |             'x' |             'x' |             'x' |
 |                       | [f_dvidtd                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_dvidtd) |            'md' |            'md' |            'md' |
 |                       | [f_dvidtt                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_dvidtt) |            'md' |            'md' |            'md' |
+|                       | [f_dxe                    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_dxe) |           False |           False |           False |
+|                       | [f_dxn                    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_dxn) |           False |           False |           False |
+|                       | [f_dxt                    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_dxt) |           False |           False |           False |
+|                       | [f_dxu                    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_dxu) |           False |           False |           False |
+|                       | [f_dye                    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_dye) |           False |           False |           False |
+|                       | [f_dyn                    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_dyn) |           False |           False |           False |
+|                       | [f_dyt                    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_dyt) |           False |           False |           False |
+|                       | [f_dyu                    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_dyu) |           False |           False |           False |
+|                       | [f_earea                  ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_earea) |           False |           False |           False |
+|                       | [f_elat                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_elat) |           False |           False |           False |
+|                       | [f_elon                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_elon) |           False |           False |           False |
+|                       | [f_emask                  ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_emask) |           False |           False |           False |
 |                       | [f_evap                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_evap) |             'x' |             'x' |             'x' |
 |                       | [f_fbot                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_fbot) |             'x' |             'x' |             'x' |
 |                       | [f_fcondtopn_ai           ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_fcondtopn_ai) |             'm' |             'm' |             'm' |
@@ -71,13 +83,20 @@
 |                       | [f_hi                     ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_hi) |            'md' |            'md' |            'md' |
 |                       | [f_hisnap                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_hisnap) |             'x' |             'x' |             'x' |
 |                       | [f_hs                     ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_hs) |            'md' |            'md' |            'md' |
+|                       | [f_hte                    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_hte) |           False |           False |           False |
+|                       | [f_htn                    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_htn) |           False |           False |           False |
 |                       | [f_icedir                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_icedir) |             'x' |             'x' |             'x' |
 |                       | [f_icespd                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_icespd) |             'x' |             'x' |             'x' |
 |                       | [f_mlt_onset              ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_mlt_onset) |             'x' |             'x' |             'x' |
+|                       | [f_narea                  ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_narea) |           False |           False |           False |
+|                       | [f_nlat                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_nlat) |           False |           False |           False |
+|                       | [f_nlon                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_nlon) |           False |           False |           False |
+|                       | [f_nmask                  ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_nmask) |           False |           False |           False |
 |                       | [f_ocndir                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_ocndir) |             'x' |             'x' |             'x' |
 |                       | [f_ocnspd                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_ocnspd) |             'x' |             'x' |             'x' |
 |                       | [f_qref                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_qref) |             'x' |             'x' |             'x' |
 |                       | [f_rain                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_rain) |             'x' |             'x' |             'x' |
+|                       | [f_sifb                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_sifb) |            'md' |            'md' |            'md' |
 |                       | [f_sig1                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_sig1) |             'x' |             'x' |             'x' |
 |                       | [f_sig2                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_sig2) |             'x' |             'x' |             'x' |
 |                       | [f_sigp                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_sigp) |             'x' |             'x' |             'x' |
@@ -85,9 +104,17 @@
 |                       | [f_snow                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_snow) |             'x' |             'x' |             'x' |
 |                       | [f_sss                    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_sss) |             'x' |             'x' |             'x' |
 |                       | [f_sst                    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_sst) |             'x' |             'x' |             'x' |
+|                       | [f_tarea                  ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_tarea) |           False |           False |           False |
 |                       | [f_taubx                  ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_taubx) |             'x' |             'x' |             'x' |
 |                       | [f_tauby                  ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_tauby) |             'x' |             'x' |             'x' |
+|                       | [f_tlat                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_tlat) |           False |           False |           False |
+|                       | [f_tlon                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_tlon) |           False |           False |           False |
+|                       | [f_tmask                  ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_tmask) |           False |           False |           False |
 |                       | [f_tref                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_tref) |             'x' |             'x' |             'x' |
+|                       | [f_uarea                  ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_uarea) |           False |           False |           False |
+|                       | [f_ulat                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_ulat) |           False |           False |           False |
+|                       | [f_ulon                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_ulon) |           False |           False |           False |
+|                       | [f_umask                  ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_umask) |           False |           False |           False |
 |                       | [f_uocn                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_uocn) |             'x' |             'x' |             'x' |
 |                       | [f_uvel                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_uvel) |            'md' |            'md' |            'md' |
 |                       | [f_vicen                  ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=f_vicen) |             'm' |             'm' |             'm' |
@@ -105,19 +132,21 @@
 |                       | [rfracmax                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=rfracmax) |             1.0 |             1.0 |             1.0 |
 | [setup_nml            ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=setup_nml) | [bfbflag                  ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=bfbflag) |           'off' |           'off' |           'off' |
 |                       | [conserv_check            ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=conserv_check) |           False |           False |           False |
-|                       | [debug_forcing            ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=debug_forcing) |            True |            True |            True |
-|                       | [debug_model              ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=debug_model) |            True |            True |            True |
 |                       | [diagfreq                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=diagfreq) |             960 |             960 |             960 |
 |                       | [dump_last                ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=dump_last) |            True |            True |            True |
 |                       | [dumpfreq                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=dumpfreq) |             'y' |             'y' |             'y' |
+|                       | [hist_suffix              ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=hist_suffix) | ['', 'm', 'x', <br>'x', 'x'] | ['', 'm', 'x', <br>'x', 'x'] | ['', 'm', 'x', <br>'x', 'x'] |
+|                       | [hist_time_axis           ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=hist_time_axis) |        'middle' |        'middle' |        'middle' |
 |                       | [histfreq                 ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=histfreq) | ['d', 'm', 'x',<br> 'x', 'x'] | ['d', 'm', 'x',<br> 'x', 'x'] | ['d', 'm', 'x',<br> 'x', 'x'] |
+|                       | [**history_chunksize**    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=history_chunksize) |      [180, 150] |      [180, 150] |      [720, 540] |
+|                       | [history_deflate          ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=history_deflate) |               1 |               1 |               1 |
 |                       | [history_precision        ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=history_precision) |               8 |               8 |               8 |
-|                       | [**ice_ic**               ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ice_ic) | './input/iced.1<br>900-01-01-10800<br>.nc' | './input/iced.1<br>900-01-01-10800<br>.nc' | 'default' |
+|                       | [**ice_ic**               ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ice_ic) | './INPUT/iced.1<br>900-01-01-10800<br>.nc' | './INPUT/iced.1<br>900-01-01-10800<br>.nc' | 'default' |
 |                       | [lcdf64                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=lcdf64) |           False |           False |           False |
 |                       | [npt                      ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=npt) |           35040 |           35040 |           35040 |
 |                       | [pointer_file             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=pointer_file) | './rpointer.ice<br>' | './rpointer.ice<br>' | './rpointer.ice<br>' |
 |                       | [print_global             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=print_global) |           False |           False |           False |
-|                       | [**use_leap_years**       ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=use_leap_years) |                 |            True |                 |
+|                       | [restart_deflate          ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=restart_deflate) |               1 |               1 |               1 |
 | [shortwave_nml        ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=shortwave_nml) | [ahmax                    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ahmax) |             0.1 |             0.1 |             0.1 |
 |                       | [albicei                  ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=albicei) |            0.44 |            0.44 |            0.44 |
 |                       | [albicev                  ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=albicev) |            0.86 |            0.86 |            0.86 |

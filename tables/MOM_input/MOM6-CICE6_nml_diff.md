@@ -1,7 +1,8 @@
-| Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/1bad3aee5400b908535fea7aff5f8073f0c7876d/MOM_input) | [MOM6-CICE6_1deg_jra55do_iaf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/de4a6c5cff17b2e7d312a8a05944711b32a9019a/MOM_input) | [MOM6-CICE6_025deg_jra55do_ryf_iss101/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/185b44f46f10aa4700fd3b094dfa7fec9484f1e9/MOM_input) |
+| Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/38c039f4b87e6394ff54adde1986686195bb12e3/MOM_input) | [MOM6-CICE6_1deg_jra55do_iaf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/236a5f8ea0fcbc1194bd1c5c90785bc40881ff6f/MOM_input) | [MOM6-CICE6_025deg_jra55do_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/f37396e0047d59ddafefb435c08073a0256cfcef/MOM_input) |
 | :------------------------ | --------------: | --------------: | --------------: |
 | [**adjust_net_srestore_t<br>o_zero**](https://github.com/mom-ocean/MOM6/search?q=adjust_net_srestore_to_zero) |       |            True |                 |
 | [**ah_vel_scale**         ](https://github.com/mom-ocean/MOM6/search?q=ah_vel_scale) |                 |             0.0 |                 |
+| [**auto_masktable**       ](https://github.com/mom-ocean/MOM6/search?q=auto_masktable) |                 |                 |            True |
 | [**bad_val_ssh_max**      ](https://github.com/mom-ocean/MOM6/search?q=bad_val_ssh_max) |            50.0 |                 |            50.0 |
 | [**bad_val_sss_max**      ](https://github.com/mom-ocean/MOM6/search?q=bad_val_sss_max) |            75.0 |                 |            75.0 |
 | [**bad_val_sst_max**      ](https://github.com/mom-ocean/MOM6/search?q=bad_val_sst_max) |            55.0 |                 |            55.0 |
@@ -9,11 +10,12 @@
 | [**bbl_use_eos**          ](https://github.com/mom-ocean/MOM6/search?q=bbl_use_eos) |                 |            True |                 |
 | [**bt_thick_scheme**      ](https://github.com/mom-ocean/MOM6/search?q=bt_thick_scheme) |                 |  'FROM_BT_CONT' |                 |
 | [**cfc_bc_file**          ](https://github.com/mom-ocean/MOM6/search?q=cfc_bc_file) |                 | 'cfc_atm_202303<br>10.nc' |       |
-| [**channel_config**       ](https://github.com/mom-ocean/MOM6/search?q=channel_config) |   'global_1deg' |   'global_1deg' |          'none' |
+| [**channel_config**       ](https://github.com/mom-ocean/MOM6/search?q=channel_config) |                 |                 |          'none' |
 | [**coord_config**         ](https://github.com/mom-ocean/MOM6/search?q=coord_config) |                 |          'none' |                 |
 | [**debug**                ](https://github.com/mom-ocean/MOM6/search?q=debug) |                 |           False |                 |
 | [**default_2018_answers** ](https://github.com/mom-ocean/MOM6/search?q=default_2018_answers) |                 |           False |                 |
 | [**depth_scaled_khth**    ](https://github.com/mom-ocean/MOM6/search?q=depth_scaled_khth) |                 |           False |                 |
+| [**diabatic_first**       ](https://github.com/mom-ocean/MOM6/search?q=diabatic_first) |            True |            True |                 |
 | [**dt**                   ](https://github.com/mom-ocean/MOM6/search?q=dt) |          1800.0 |          1800.0 |          1350.0 |
 | [**dt_therm**             ](https://github.com/mom-ocean/MOM6/search?q=dt_therm) |          3600.0 |          3600.0 |          1350.0 |
 | [**energysavedays**       ](https://github.com/mom-ocean/MOM6/search?q=energysavedays) |                 |             1.0 |                 |
@@ -38,6 +40,7 @@
 | [**max_rino_it**          ](https://github.com/mom-ocean/MOM6/search?q=max_rino_it) |                 |              25 |                 |
 | [**maxtrunc**             ](https://github.com/mom-ocean/MOM6/search?q=maxtrunc) |                 |               0 |                 |
 | [**min_salinity**         ](https://github.com/mom-ocean/MOM6/search?q=min_salinity) |                 |             0.0 |                 |
+| [**minimum_depth**        ](https://github.com/mom-ocean/MOM6/search?q=minimum_depth) |             0.5 |             0.5 |                 |
 | [**niglobal**             ](https://github.com/mom-ocean/MOM6/search?q=niglobal) |             360 |             360 |            1440 |
 | [**nihalo**               ](https://github.com/mom-ocean/MOM6/search?q=nihalo) |                 |               4 |                 |
 | [**njglobal**             ](https://github.com/mom-ocean/MOM6/search?q=njglobal) |             300 |             300 |            1080 |
@@ -47,6 +50,9 @@
 | [**restart_control**      ](https://github.com/mom-ocean/MOM6/search?q=restart_control) |               3 |               3 |                 |
 | [**simple_tke_to_kd**     ](https://github.com/mom-ocean/MOM6/search?q=simple_tke_to_kd) |                 |            True |                 |
 | [**smag_bi_const**        ](https://github.com/mom-ocean/MOM6/search?q=smag_bi_const) |                 |            0.06 |                 |
+| [**tide_m2**              ](https://github.com/mom-ocean/MOM6/search?q=tide_m2) |            True |            True |                 |
+| [**tide_sal_scalar_value**](https://github.com/mom-ocean/MOM6/search?q=tide_sal_scalar_value) |           0.094 |           0.094 |                 |
+| [**tides**                ](https://github.com/mom-ocean/MOM6/search?q=tides) |            True |            True |                 |
 | [**tolerance_ent**        ](https://github.com/mom-ocean/MOM6/search?q=tolerance_ent) |                 |           1e-05 |                 |
 | [**topo_file**            ](https://github.com/mom-ocean/MOM6/search?q=topo_file) |                 |      'topog.nc' |                 |
 | [**use_cfc_cap**          ](https://github.com/mom-ocean/MOM6/search?q=use_cfc_cap) |                 |           False |                 |

@@ -1,4 +1,4 @@
-| Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/1bad3aee5400b908535fea7aff5f8073f0c7876d/MOM_input) | [MOM6-CICE6_gmom_jra/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6/blob/4f9e72a2c32ca4f6873a6f9cfad288038da945f4/MOM_input) |
+| Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/38c039f4b87e6394ff54adde1986686195bb12e3/MOM_input) | [MOM6-CICE6_gmom_jra/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/4f9e72a2c32ca4f6873a6f9cfad288038da945f4/MOM_input) |
 | :------------------------ | --------------: | --------------: |
 | [adjust_net_fresh_wate<br>r_to_zero](https://github.com/mom-ocean/MOM6/search?q=adjust_net_fresh_water_to_zero) |   True |            True |
 | [ah                       ](https://github.com/mom-ocean/MOM6/search?q=ah) | 1000000000000.0 | 1000000000000.0 |
@@ -20,7 +20,7 @@
 | [c_p                      ](https://github.com/mom-ocean/MOM6/search?q=c_p) |          3992.0 |          3992.0 |
 | [**cfc_bc_file**          ](https://github.com/mom-ocean/MOM6/search?q=cfc_bc_file) |                 | 'cfc_atm_202303<br>10.nc' |
 | [cfl_truncate_ramp_tim<br>e](https://github.com/mom-ocean/MOM6/search?q=cfl_truncate_ramp_time) |         7200.0 |          7200.0 |
-| [channel_config           ](https://github.com/mom-ocean/MOM6/search?q=channel_config) |   'global_1deg' |   'global_1deg' |
+| [**channel_config**       ](https://github.com/mom-ocean/MOM6/search?q=channel_config) |                 |   'global_1deg' |
 | [channel_drag             ](https://github.com/mom-ocean/MOM6/search?q=channel_drag) |            True |            True |
 | [check_bad_surface_val<br>s](https://github.com/mom-ocean/MOM6/search?q=check_bad_surface_vals) |           True |            True |
 | [check_diffusive_cfl      ](https://github.com/mom-ocean/MOM6/search?q=check_diffusive_cfl) |            True |            True |
@@ -38,6 +38,7 @@
 | [dtfreeze_dp              ](https://github.com/mom-ocean/MOM6/search?q=dtfreeze_dp) |       -7.75e-08 |       -7.75e-08 |
 | [**energysavedays**       ](https://github.com/mom-ocean/MOM6/search?q=energysavedays) |                 |             1.0 |
 | [enthalpy_from_coupler    ](https://github.com/mom-ocean/MOM6/search?q=enthalpy_from_coupler) |            True |            True |
+| [**eps_omesh**            ](https://github.com/mom-ocean/MOM6/search?q=eps_omesh) |           1e-13 |                 |
 | [eta_tolerance            ](https://github.com/mom-ocean/MOM6/search?q=eta_tolerance) |           1e-06 |           1e-06 |
 | [**fatal_unused_params**  ](https://github.com/mom-ocean/MOM6/search?q=fatal_unused_params) |            True |                 |
 | [fgnv_c_min               ](https://github.com/mom-ocean/MOM6/search?q=fgnv_c_min) |            0.01 |            0.01 |
@@ -57,7 +58,7 @@
 | [**hmix_min**             ](https://github.com/mom-ocean/MOM6/search?q=hmix_min) |                 |             2.0 |
 | [horiz_varying_backgro<br>und](https://github.com/mom-ocean/MOM6/search?q=horiz_varying_background) |         True |            True |
 | [init_layers_from_z_fi<br>le](https://github.com/mom-ocean/MOM6/search?q=init_layers_from_z_file) |          True |            True |
-| [inputdir                 ](https://github.com/mom-ocean/MOM6/search?q=inputdir) |      './input/' |      './input/' |
+| [**inputdir**             ](https://github.com/mom-ocean/MOM6/search?q=inputdir) |      './INPUT/' |      './input/' |
 | [**int_tide_decay_scale** ](https://github.com/mom-ocean/MOM6/search?q=int_tide_decay_scale) |                 | 300.30030030030<br>03 |
 | [**interp_type2**         ](https://github.com/mom-ocean/MOM6/search?q=interp_type2) |                 |         'LMD94' |
 | [**interpolate_res_fn**   ](https://github.com/mom-ocean/MOM6/search?q=interpolate_res_fn) |                 |           False |
@@ -85,7 +86,6 @@
 | [leith_bi_const           ](https://github.com/mom-ocean/MOM6/search?q=leith_bi_const) |           128.0 |           128.0 |
 | [mass_weight_in_pressu<br>re_gradient](https://github.com/mom-ocean/MOM6/search?q=mass_weight_in_pressure_gradient) | True |            True |
 | [match_technique          ](https://github.com/mom-ocean/MOM6/search?q=match_technique) | 'MatchGradient' | 'MatchGradient' |
-| [**max_delta_srestore**   ](https://github.com/mom-ocean/MOM6/search?q=max_delta_srestore) |             0.5 |                 |
 | [**max_ent_it**           ](https://github.com/mom-ocean/MOM6/search?q=max_ent_it) |                 |              20 |
 | [**max_rino_it**          ](https://github.com/mom-ocean/MOM6/search?q=max_rino_it) |                 |              25 |
 | [max_tr_diffusion_cfl     ](https://github.com/mom-ocean/MOM6/search?q=max_tr_diffusion_cfl) |             2.0 |             2.0 |
@@ -177,4 +177,5 @@
 | [z_init_ale_remapping     ](https://github.com/mom-ocean/MOM6/search?q=z_init_ale_remapping) |            True |            True |
 | [**z_init_file_ptemp_var**](https://github.com/mom-ocean/MOM6/search?q=z_init_file_ptemp_var) |          'temp' |         'PTEMP' |
 | [**z_init_file_salt_var** ](https://github.com/mom-ocean/MOM6/search?q=z_init_file_salt_var) |                 |          'SALT' |
+| [**z_init_remap_general** ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_general) |            True |                 |
 | [**z_init_remap_old_alg** ](https://github.com/mom-ocean/MOM6/search?q=z_init_remap_old_alg) |                 |           False |

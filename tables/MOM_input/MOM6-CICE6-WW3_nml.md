@@ -1,4 +1,4 @@
-| Variable                  | [MOM6-CICE6-WW3_1deg_jra55do_ryf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6-WW3/blob/48b09abc9dfb832cb44a32a0eacd2b92d6308de4/MOM_input) | [MOM6-CICE6-WW3_1deg_jra55do_iaf/<br>MOM_input](https://github.com/COSIMA/MOM6-CICE6-WW3/blob/9bd9b854cb993c3501c791f7afaafc15b73901b5/MOM_input) |
+| Variable                  | [MOM6-CICE6-WW3_1deg_jra55do_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-wav-configs/blob/85bfdc49887243e660c2ddaa07a2679177cd1eda/MOM_input) | [MOM6-CICE6-WW3_1deg_jra55do_iaf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-wav-configs/blob/38b7e789760a16f4941a30c54364098524db008a/MOM_input) |
 | :------------------------ | --------------: | --------------: |
 | [adjust_net_fresh_wate<br>r_to_zero](https://github.com/mom-ocean/MOM6/search?q=adjust_net_fresh_water_to_zero) |   True |            True |
 | [adjust_net_srestore_t<br>o_zero](https://github.com/mom-ocean/MOM6/search?q=adjust_net_srestore_to_zero) |      True |            True |
@@ -22,7 +22,6 @@
 | [c_p                      ](https://github.com/mom-ocean/MOM6/search?q=c_p) |          3992.0 |          3992.0 |
 | [cfc_bc_file              ](https://github.com/mom-ocean/MOM6/search?q=cfc_bc_file) | 'cfc_atm_202303<br>10.nc' | 'cfc_atm_202303<br>10.nc' |
 | [cfl_truncate_ramp_tim<br>e](https://github.com/mom-ocean/MOM6/search?q=cfl_truncate_ramp_time) |         7200.0 |          7200.0 |
-| [channel_config           ](https://github.com/mom-ocean/MOM6/search?q=channel_config) |   'global_1deg' |   'global_1deg' |
 | [channel_drag             ](https://github.com/mom-ocean/MOM6/search?q=channel_drag) |            True |            True |
 | [check_bad_surface_val<br>s](https://github.com/mom-ocean/MOM6/search?q=check_bad_surface_vals) |           True |            True |
 | [check_diffusive_cfl      ](https://github.com/mom-ocean/MOM6/search?q=check_diffusive_cfl) |            True |            True |
@@ -60,7 +59,7 @@
 | [hmix_min                 ](https://github.com/mom-ocean/MOM6/search?q=hmix_min) |             2.0 |             2.0 |
 | [horiz_varying_backgro<br>und](https://github.com/mom-ocean/MOM6/search?q=horiz_varying_background) |         True |            True |
 | [init_layers_from_z_fi<br>le](https://github.com/mom-ocean/MOM6/search?q=init_layers_from_z_file) |          True |            True |
-| [inputdir                 ](https://github.com/mom-ocean/MOM6/search?q=inputdir) |      './input/' |      './input/' |
+| [inputdir                 ](https://github.com/mom-ocean/MOM6/search?q=inputdir) |      './INPUT/' |      './INPUT/' |
 | [int_tide_decay_scale     ](https://github.com/mom-ocean/MOM6/search?q=int_tide_decay_scale) | 300.30030030030<br>03 | 300.30030030030<br>03 |
 | [interp_type2             ](https://github.com/mom-ocean/MOM6/search?q=interp_type2) |         'LMD94' |         'LMD94' |
 | [interpolate_res_fn       ](https://github.com/mom-ocean/MOM6/search?q=interpolate_res_fn) |           False |           False |
