@@ -50,3 +50,7 @@
 	path = configs/ACCESS-OM2_01deg_jra55_ryf
 	url = https://github.com/COSIMA/01deg_jra55_ryf
 	branch = master
+[submodule "configs/MOM6-CICE6_025deg_jra55do_ryf"]
+	path = configs/MOM6-CICE6_025deg_jra55do_ryf
+	url = https://github.com/ACCESS-NRI/access-om3-configs.git
+	branch = dev-025deg_jra55do_ryf
