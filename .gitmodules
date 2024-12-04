@@ -58,3 +58,7 @@
 	path = configs/ACCESS-OM2_01deg_jra55v13_ryf9091
 	url = https://github.com/COSIMA/01deg_jra55_ryf
 	branch = 01deg_jra55v13_ryf9091
+[submodule "configs/ACCESS-OM2_release-01deg_jra55_ryf"]
+	path = configs/ACCESS-OM2_release-01deg_jra55_ryf
+	url = https://github.com/ACCESS-NRI/access-om2-configs.git
+	branch = release-01deg_jra55_ryf
