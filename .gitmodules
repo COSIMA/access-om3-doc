@@ -1,7 +1,7 @@
 [submodule "MOM6-CICE6_1deg_jra55do_ryf"]
 	path = configs/MOM6-CICE6_1deg_jra55do_ryf
-	url = https://github.com/COSIMA/MOM6-CICE6.git
-	branch = 1deg_jra55do_ryf
+	url = https://github.com/ACCESS-NRI/access-om3-configs.git
+	branch = dev-1deg_jra55do_ryf
 [submodule "ACCESS-OM2_1deg_jra55_ryf"]
 	path = configs/ACCESS-OM2_1deg_jra55_ryf
 	url = https://github.com/COSIMA/1deg_jra55_ryf
@@ -24,23 +24,23 @@
 	branch = dev/gfdl
 [submodule "configs/MOM6-CICE6_gmom_jra"]
 	path = configs/MOM6-CICE6_gmom_jra
-	url = https://github.com/COSIMA/MOM6-CICE6.git
+	url = https://github.com/ACCESS-NRI/access-om3-configs.git
 	branch = gmom_jra
 [submodule "configs/MOM6-CICE6_1deg_jra55do_iaf"]
 	path = configs/MOM6-CICE6_1deg_jra55do_iaf
-	url = https://github.com/COSIMA/MOM6-CICE6.git
-	branch = 1deg_jra55do_iaf
+	url = https://github.com/ACCESS-NRI/access-om3-configs.git
+	branch = dev-1deg_jra55do_iaf
 [submodule "configs/MOM6-CICE6-WW3_1deg_jra55do_ryf"]
 	path = configs/MOM6-CICE6-WW3_1deg_jra55do_ryf
-	url = https://github.com/COSIMA/MOM6-CICE6-WW3.git
-	branch = 1deg_jra55do_ryf
+	url = https://github.com/ACCESS-NRI/access-om3-wav-configs.git
+	branch = dev-1deg_jra55do_ryf
 [submodule "configs/MOM6-CICE6-WW3_1deg_jra55do_iaf"]
 	path = configs/MOM6-CICE6-WW3_1deg_jra55do_iaf
-	url = https://github.com/COSIMA/MOM6-CICE6-WW3.git
-	branch = 1deg_jra55do_iaf
+	url = https://github.com/ACCESS-NRI/access-om3-wav-configs.git
+	branch = dev-1deg_jra55do_iaf
 [submodule "configs/MOM6-CICE6-WW3_gmom_jra_wd"]
 	path = configs/MOM6-CICE6-WW3_gmom_jra_wd
-	url = https://github.com/COSIMA/MOM6-CICE6-WW3.git
+	url = https://github.com/ACCESS-NRI/access-om3-wav-configs.git
 	branch = gmom_jra_wd
 [submodule "configs/ACCESS-OM2_025deg_jra55_ryf"]
 	path = configs/ACCESS-OM2_025deg_jra55_ryf
