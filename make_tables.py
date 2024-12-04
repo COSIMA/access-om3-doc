@@ -192,6 +192,20 @@ savetables( [
         'https://github.com/COSIMA/cice5/search?q=')
 
 savetables( [
+        'ACCESS-OM2_01deg_jra55v13_ryf9091/ocean/input.nml',
+        'ACCESS-OM2_release-01deg_jra55_ryf/ocean/input.nml',
+        ],
+        'MOM_input/ACCESS-OM2_01deg_jra55v13_ryf9091',
+        'https://github.com/mom-ocean/MOM5/search?q=')
+
+savetables( [
+        'ACCESS-OM2_01deg_jra55v13_ryf9091/ice/cice_in.nml',
+        'ACCESS-OM2_release-01deg_jra55_ryf/ice/cice_in.nml',
+        ],
+        'ice_in/ACCESS-OM2_01deg_jra55v13_ryf9091',
+        'https://github.com/COSIMA/cice5/search?q=')
+
+savetables( [
         'GFDL-OM5/b00_MOM_parameter_doc.all',
         'GFDL-OM5/b03_update_MOM_parameter_doc.all'
         ],
