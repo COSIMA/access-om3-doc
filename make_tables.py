@@ -106,9 +106,9 @@ savetables( [
         'https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=')
 
 savetables( [
-        'MOM6-CICE6_1deg_jra55do_ryf/MOM_input',
-        'MOM6-CICE6_1deg_jra55do_iaf/MOM_input',
-        'MOM6-CICE6_025deg_jra55do_ryf/MOM_input',
+        'MOM6-CICE6_1deg_jra55do_ryf/docs/MOM_parameter_doc.all',
+        'MOM6-CICE6_1deg_jra55do_iaf/docs/MOM_parameter_doc.all',
+        'MOM6-CICE6_025deg_jra55do_ryf/docs/MOM_parameter_doc.all',
         ],
         'MOM_input/MOM6-CICE6',
         'https://github.com/mom-ocean/MOM6/search?q=')
@@ -221,4 +221,13 @@ savetables( [
         'GFDL-OM5/b03_update_MOM_parameter_doc.all'
         ],
         'MOM_input/GFDL-OM4-OM5',
+        'https://github.com/mom-ocean/MOM6/search?q=')
+
+savetables( [
+        'GFDL-OM5/b03_update_MOM_parameter_doc.all',
+        'MOM6-CICE6_1deg_jra55do_ryf/docs/MOM_parameter_doc.all',
+        'MOM6-CICE6_1deg_jra55do_iaf/docs/MOM_parameter_doc.all',
+        'MOM6-CICE6_025deg_jra55do_ryf/docs/MOM_parameter_doc.all',
+        ],
+        'MOM_input/GFDL-OM5_ACCESS-OM3',
         'https://github.com/mom-ocean/MOM6/search?q=')
