@@ -1,4 +1,4 @@
-| Group                 | Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>ice_in](https://github.com/ACCESS-NRI/access-om3-configs/blob/38c039f4b87e6394ff54adde1986686195bb12e3/ice_in) | [ACCESS-OM2_1deg_jra55_ryf/<br>ice/<br>cice_in.nml](https://github.com/COSIMA/1deg_jra55_ryf/blob/c7f15f671b3417c52e8ecd77d5fe9b4d38429452/ice/cice_in.nml) |
+| Group                 | Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>ice_in](https://github.com/ACCESS-NRI/access-om3-configs/blob/b63e84766de7d133818e983023205b22cd249aac/ice_in) | [ACCESS-OM2_1deg_jra55_ryf/<br>ice/<br>cice_in.nml](https://github.com/COSIMA/1deg_jra55_ryf/blob/c7f15f671b3417c52e8ecd77d5fe9b4d38429452/ice/cice_in.nml) |
 | :-------------------- | :------------------------ | --------------: | --------------: |
 | [domain_nml           ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=domain_nml) | [**block_size_x**         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=block_size_x) |              15 |                 |
 |                       | [**block_size_y**         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=block_size_y) |              20 |                 |
@@ -233,9 +233,11 @@
 |                       | [**diag_file**            ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=diag_file) |                 |    'ice_diag.d' |
 |                       | [**diag_type**            ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=diag_type) |                 |          'file' |
 |                       | [**dt**                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=dt) |                 |            3600 |
+|                       | [**dump_last**            ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=dump_last) |                 |            True |
+|                       | [**dumpfreq**             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=dumpfreq) |             'x' |             'y' |
 |                       | [**dumpfreq_n**           ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=dumpfreq_n) |                 |               1 |
 |                       | [**hist_avg**             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=hist_avg) |                 |            True |
-|                       | [**hist_suffix**          ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=hist_suffix) | ['', 'm', 'x', <br>'x', 'x'] |    |
+|                       | [**hist_suffix**          ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=hist_suffix) | ['.1day.mean', <br>'.1mon.mean', '<br>x', 'x', 'x'] |  |
 |                       | [**hist_time_axis**       ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=hist_time_axis) |        'middle' |                 |
 |                       | [**histfreq_n**           ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=histfreq_n) |                 | [1, 1, 1, 1, 1] |
 |                       | [**history_chunksize**    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=history_chunksize) |      [180, 150] |                 |
