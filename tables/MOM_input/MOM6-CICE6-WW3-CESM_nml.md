@@ -1,4 +1,4 @@
-| Variable                  | [MOM6-CICE6-WW3_1deg_jra55do_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-wav-configs/blob/fa244187ee55e0852f0d53baa2ab0fd37284a4e9/MOM_input) | [MOM6-CICE6-WW3_gmom_jra_wd/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-wav-configs/blob/6834f9d1b528747a2b90269d32eed36f5d4e24d9/MOM_input) |
+| Variable                  | [dev-MCW_100km_jra_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/fa244187ee55e0852f0d53baa2ab0fd37284a4e9/MOM_input) | [gmom_jra_wd/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/6834f9d1b528747a2b90269d32eed36f5d4e24d9/MOM_input) |
 | :------------------------ | --------------: | --------------: |
 | [adjust_net_fresh_wate<br>r_to_zero](https://github.com/mom-ocean/MOM6/search?q=adjust_net_fresh_water_to_zero) |   True |            True |
 | [**adjust_net_srestore_t<br>o_zero**](https://github.com/mom-ocean/MOM6/search?q=adjust_net_srestore_to_zero) |  True |                 |

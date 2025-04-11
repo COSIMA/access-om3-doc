@@ -83,66 +83,66 @@ def savetables(nmls, fname, url):
         fname += "_diff"
 
 savetables([
-        'MOM6-CICE6_1deg_jra55do_ryf/ice_in',
+        'dev-MC_100km_jra_ryf/ice_in',
         'ACCESS-OM2_1deg_jra55_ryf/ice/cice_in.nml',
         ],
         'ice_in/cice',
         'https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=')
 
 savetables( [
-        'MOM6-CICE6_1deg_jra55do_ryf/ice_in',
-        'MOM6-CICE6_025deg_jra55do_ryf/ice_in',
+        'dev-MC_100km_jra_ryf/ice_in',
+        'dev-MC_25km_jra_ryf/ice_in',
         'ACCESS-OM2_025deg_jra55_ryf/ice/cice_in.nml',
         ],
         'ice_in/cice_1_025',
         'https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=')
 
 savetables( [
-        'MOM6-CICE6_1deg_jra55do_ryf/ice_in',
-        'MOM6-CICE6_1deg_jra55do_iaf/ice_in',
-        'MOM6-CICE6_025deg_jra55do_ryf/ice_in',
+        'dev-MC_100km_jra_ryf/ice_in',
+        'dev-MC_100km_jra_iaf/ice_in',
+        'dev-MC_25km_jra_ryf/ice_in',
         ],
         'ice_in/MOM6-CICE6',
         'https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=')
 
 savetables( [
-        'MOM6-CICE6_1deg_jra55do_ryf/docs/MOM_parameter_doc.all',
-        'MOM6-CICE6_1deg_jra55do_iaf/docs/MOM_parameter_doc.all',
-        'MOM6-CICE6_025deg_jra55do_ryf/docs/MOM_parameter_doc.all',
+        'dev-MC_100km_jra_ryf/docs/MOM_parameter_doc.all',
+        'dev-MC_100km_jra_iaf/docs/MOM_parameter_doc.all',
+        'dev-MC_25km_jra_ryf/docs/MOM_parameter_doc.all',
         ],
         'MOM_input/MOM6-CICE6',
         'https://github.com/mom-ocean/MOM6/search?q=')
 
 savetables( [
-        'MOM6-CICE6_1deg_jra55do_ryf/MOM_input',
-        'MOM6-CICE6_gmom_jra/MOM_input',
+        'dev-MC_100km_jra_ryf/MOM_input',
+        'gmom_jra/MOM_input',
         ],
         'MOM_input/MOM6-CICE6-CESM',
         'https://github.com/mom-ocean/MOM6/search?q=')
 
 savetables( [
-        'MOM6-CICE6-WW3_1deg_jra55do_ryf/MOM_input',
-        'MOM6-CICE6-WW3_1deg_jra55do_iaf/MOM_input',
+        'dev-MCW_100km_jra_ryf/MOM_input',
+        'dev-MCW_100km_jra_iaf/MOM_input',
         ],
         'MOM_input/MOM6-CICE6-WW3',
         'https://github.com/mom-ocean/MOM6/search?q=')
 
 savetables( [
-        'MOM6-CICE6-WW3_1deg_jra55do_ryf/MOM_input',
-        'MOM6-CICE6-WW3_gmom_jra_wd/MOM_input',
+        'dev-MCW_100km_jra_ryf/MOM_input',
+        'gmom_jra_wd/MOM_input',
         ],
         'MOM_input/MOM6-CICE6-WW3-CESM',
         'https://github.com/mom-ocean/MOM6/search?q=')
 
 savetables( [
-        'MOM6-CICE6_1deg_jra55do_ryf/MOM_input',
-        'MOM6-CICE6-WW3_1deg_jra55do_ryf/MOM_input',
+        'dev-MC_100km_jra_ryf/MOM_input',
+        'dev-MCW_100km_jra_ryf/MOM_input',
         ],
         'MOM_input/MOM6-CICE6_MOM6-CICE6-WW3',
         'https://github.com/mom-ocean/MOM6/search?q=')
 
 savetables( [
-        'MOM6-CICE6_1deg_jra55do_ryf/MOM_input',
+        'dev-MC_100km_jra_ryf/MOM_input',
         'mom6-om4-025/MOM_input',
         'mom6-panan/MOM_input',
         # 'mom6-eac/MOM_input',  # no relevant differences from mom6-panan
@@ -154,7 +154,7 @@ savetables( [
         'https://github.com/mom-ocean/MOM6/search?q=')
 
 savetables( [
-        'MOM6-CICE6_1deg_jra55do_ryf/MOM_input',
+        'dev-MC_100km_jra_ryf/MOM_input',
         'mom6-om4-025/MOM_input',
         'MOM6-examples/ocean_only/global/MOM_input',
         ],
@@ -225,9 +225,9 @@ savetables( [
 
 savetables( [
         'GFDL-OM5/b03_update_MOM_parameter_doc.all',
-        'MOM6-CICE6_1deg_jra55do_ryf/docs/MOM_parameter_doc.all',
-        'MOM6-CICE6_1deg_jra55do_iaf/docs/MOM_parameter_doc.all',
-        'MOM6-CICE6_025deg_jra55do_ryf/docs/MOM_parameter_doc.all',
+        'dev-MC_100km_jra_ryf/docs/MOM_parameter_doc.all',
+        'dev-MC_100km_jra_iaf/docs/MOM_parameter_doc.all',
+        'dev-MC_25km_jra_ryf/docs/MOM_parameter_doc.all',
         ],
         'MOM_input/GFDL-OM5_ACCESS-OM3',
         'https://github.com/mom-ocean/MOM6/search?q=')

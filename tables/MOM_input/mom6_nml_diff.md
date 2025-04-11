@@ -1,4 +1,4 @@
-| Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/b63e84766de7d133818e983023205b22cd249aac/MOM_input) | [mom6-om4-025/<br>MOM_input](https://github.com/COSIMA/mom6-om4-025/blob/9976b7963ba94b89c3d660f777d62836c553c412/MOM_input) | [mom6-panan/<br>MOM_input](https://github.com/COSIMA/mom6-panan/blob/a900ea38a08896d2b6c43350a1505830212c9c69/MOM_input) | [MOM6-examples/<br>ocean_only/<br>global/<br>MOM_input](https://github.com/NOAA-GFDL/MOM6-examples/blob/75ef475e8948aa9bb928ddd40f02199ee104a4b0/ocean_only/global/MOM_input) |
+| Variable                  | [dev-MC_100km_jra_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/25e163b3331c8966dc194a50dd1d98355bd28bd6/MOM_input) | [mom6-om4-025/<br>MOM_input](https://github.com/COSIMA/mom6-om4-025/blob/9976b7963ba94b89c3d660f777d62836c553c412/MOM_input) | [mom6-panan/<br>MOM_input](https://github.com/COSIMA/mom6-panan/blob/a900ea38a08896d2b6c43350a1505830212c9c69/MOM_input) | [MOM6-examples/<br>ocean_only/<br>global/<br>MOM_input](https://github.com/NOAA-GFDL/MOM6-examples/blob/2ae4a38d01b9c44d1fc5c66f191a28a1edf482b9/ocean_only/global/MOM_input) |
 | :------------------------ | --------------: | --------------: | --------------: | --------------: |
 | [**absorb_all_sw**        ](https://github.com/mom-ocean/MOM6/search?q=absorb_all_sw) |                 |                 |                 |            True |
 | [**adjust_net_fresh_wate<br>r_to_zero**](https://github.com/mom-ocean/MOM6/search?q=adjust_net_fresh_water_to_zero) | True |               |                 |                 |
@@ -186,7 +186,7 @@
 | [**nihalo**               ](https://github.com/mom-ocean/MOM6/search?q=nihalo) |                 |               4 |                 |                 |
 | [**njglobal**             ](https://github.com/mom-ocean/MOM6/search?q=njglobal) |             300 |            1080 |             845 |             210 |
 | [**njhalo**               ](https://github.com/mom-ocean/MOM6/search?q=njhalo) |                 |               4 |                 |                 |
-| [**nk**                   ](https://github.com/mom-ocean/MOM6/search?q=nk) |              50 |              75 |              75 |              63 |
+| [**nk**                   ](https://github.com/mom-ocean/MOM6/search?q=nk) |              75 |              75 |              75 |              63 |
 | [**nstar**                ](https://github.com/mom-ocean/MOM6/search?q=nstar) |                 |            0.06 |            0.06 |                 |
 | [**num_diag_coords**      ](https://github.com/mom-ocean/MOM6/search?q=num_diag_coords) |                 |               2 |               2 |                 |
 | [**obc_freeslip_strain**  ](https://github.com/mom-ocean/MOM6/search?q=obc_freeslip_strain) |                 |                 |            True |                 |

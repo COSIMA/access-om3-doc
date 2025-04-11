@@ -1,4 +1,4 @@
-| Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/b63e84766de7d133818e983023205b22cd249aac/MOM_input) | [MOM6-CICE6_gmom_jra/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/4f9e72a2c32ca4f6873a6f9cfad288038da945f4/MOM_input) |
+| Variable                  | [dev-MC_100km_jra_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/25e163b3331c8966dc194a50dd1d98355bd28bd6/MOM_input) | [gmom_jra/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/4f9e72a2c32ca4f6873a6f9cfad288038da945f4/MOM_input) |
 | :------------------------ | --------------: | --------------: |
 | [**ah_vel_scale**         ](https://github.com/mom-ocean/MOM6/search?q=ah_vel_scale) |                 |             0.0 |
 | [**ale_coordinate_config**](https://github.com/mom-ocean/MOM6/search?q=ale_coordinate_config) | 'FILE:ocean_vgr<br>id.nc,interface<br>s=zeta' | 'FILE:ocean_vgr<br>id.nc,dz' |
@@ -52,7 +52,7 @@
 | [**nihalo**               ](https://github.com/mom-ocean/MOM6/search?q=nihalo) |                 |               4 |
 | [**njglobal**             ](https://github.com/mom-ocean/MOM6/search?q=njglobal) |             300 |             384 |
 | [**njhalo**               ](https://github.com/mom-ocean/MOM6/search?q=njhalo) |                 |               4 |
-| [**nk**                   ](https://github.com/mom-ocean/MOM6/search?q=nk) |              50 |              60 |
+| [**nk**                   ](https://github.com/mom-ocean/MOM6/search?q=nk) |              75 |              60 |
 | [**prandtl_turb**         ](https://github.com/mom-ocean/MOM6/search?q=prandtl_turb) |                 |             1.0 |
 | [**rad_earth**            ](https://github.com/mom-ocean/MOM6/search?q=rad_earth) |       6371229.0 |                 |
 | [**remap_uv_using_old_al<br>g**](https://github.com/mom-ocean/MOM6/search?q=remap_uv_using_old_alg) |            |           False |

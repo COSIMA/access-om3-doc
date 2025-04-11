@@ -1,4 +1,4 @@
-| Group                 | Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>ice_in](https://github.com/ACCESS-NRI/access-om3-configs/blob/b63e84766de7d133818e983023205b22cd249aac/ice_in) | [ACCESS-OM2_1deg_jra55_ryf/<br>ice/<br>cice_in.nml](https://github.com/COSIMA/1deg_jra55_ryf/blob/c7f15f671b3417c52e8ecd77d5fe9b4d38429452/ice/cice_in.nml) |
+| Group                 | Variable                  | [dev-MC_100km_jra_ryf/<br>ice_in](https://github.com/ACCESS-NRI/access-om3-configs/blob/25e163b3331c8966dc194a50dd1d98355bd28bd6/ice_in) | [ACCESS-OM2_1deg_jra55_ryf/<br>ice/<br>cice_in.nml](https://github.com/COSIMA/1deg_jra55_ryf/blob/c7f15f671b3417c52e8ecd77d5fe9b4d38429452/ice/cice_in.nml) |
 | :-------------------- | :------------------------ | --------------: | --------------: |
 | [domain_nml           ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=domain_nml) | [**block_size_x**         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=block_size_x) |              15 |                 |
 |                       | [**block_size_y**         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=block_size_y) |              20 |                 |
@@ -54,8 +54,8 @@
 |                       | [**ycycle**               ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ycycle) |                 |               1 |
 | [grid_nml             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_nml) | [**bathymetry_file**      ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=bathymetry_file) | './INPUT/topog.<br>nc' |          |
 |                       | [**grid_atm**             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_atm) |             'A' |                 |
-|                       | [**grid_file**            ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_file) | './INPUT/grid.n<br>c' | 'RESTART/grid.n<br>c' |
-|                       | [grid_format              ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_format) |            'nc' |            'nc' |
+|                       | [**grid_file**            ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_file) | './INPUT/ocean_<br>hgrid.nc' | 'RESTART/grid.n<br>c' |
+|                       | [**grid_format**          ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_format) |        'mom_nc' |            'nc' |
 |                       | [**grid_ice**             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_ice) |             'B' |                 |
 |                       | [**grid_ocn**             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_ocn) |             'A' |                 |
 |                       | [grid_type                ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_type) |       'tripole' |       'tripole' |

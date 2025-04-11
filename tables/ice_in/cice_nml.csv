@@ -1,4 +1,4 @@
-diff,group,variable,MOM6-CICE6_1deg_jra55do_ryf/ice_in,ACCESS-OM2_1deg_jra55_ryf/ice/cice_in.nml
+diff,group,variable,dev-MC_100km_jra_ryf/ice_in,ACCESS-OM2_1deg_jra55_ryf/ice/cice_in.nml
 *,"=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=domain_nml"", ""&domain_nml"")","=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=block_size_x"", ""block_size_x"")",15,
 *,"=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=domain_nml"", ""&domain_nml"")","=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=block_size_y"", ""block_size_y"")",20,
 ,"=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=domain_nml"", ""&domain_nml"")","=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=distribution_type"", ""distribution_type"")",cartesian,cartesian
@@ -53,8 +53,8 @@ diff,group,variable,MOM6-CICE6_1deg_jra55do_ryf/ice_in,ACCESS-OM2_1deg_jra55_ryf
 *,"=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=forcing_nml"", ""&forcing_nml"")","=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ycycle"", ""ycycle"")",,1
 *,"=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_nml"", ""&grid_nml"")","=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=bathymetry_file"", ""bathymetry_file"")",./INPUT/topog.nc,
 *,"=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_nml"", ""&grid_nml"")","=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_atm"", ""grid_atm"")",A,
-*,"=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_nml"", ""&grid_nml"")","=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_file"", ""grid_file"")",./INPUT/grid.nc,RESTART/grid.nc
-,"=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_nml"", ""&grid_nml"")","=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_format"", ""grid_format"")",nc,nc
+*,"=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_nml"", ""&grid_nml"")","=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_file"", ""grid_file"")",./INPUT/ocean_hgrid.nc,RESTART/grid.nc
+*,"=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_nml"", ""&grid_nml"")","=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_format"", ""grid_format"")",mom_nc,nc
 *,"=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_nml"", ""&grid_nml"")","=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_ice"", ""grid_ice"")",B,
 *,"=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_nml"", ""&grid_nml"")","=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_ocn"", ""grid_ocn"")",A,
 ,"=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_nml"", ""&grid_nml"")","=HYPERLINK(""https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_type"", ""grid_type"")",tripole,tripole

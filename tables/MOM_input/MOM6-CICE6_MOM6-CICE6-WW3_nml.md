@@ -1,4 +1,4 @@
-| Variable                  | [MOM6-CICE6_1deg_jra55do_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/b63e84766de7d133818e983023205b22cd249aac/MOM_input) | [MOM6-CICE6-WW3_1deg_jra55do_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-wav-configs/blob/fa244187ee55e0852f0d53baa2ab0fd37284a4e9/MOM_input) |
+| Variable                  | [dev-MC_100km_jra_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/25e163b3331c8966dc194a50dd1d98355bd28bd6/MOM_input) | [dev-MCW_100km_jra_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/fa244187ee55e0852f0d53baa2ab0fd37284a4e9/MOM_input) |
 | :------------------------ | --------------: | --------------: |
 | [adjust_net_fresh_wate<br>r_to_zero](https://github.com/mom-ocean/MOM6/search?q=adjust_net_fresh_water_to_zero) |   True |            True |
 | [**adjust_net_srestore_t<br>o_zero**](https://github.com/mom-ocean/MOM6/search?q=adjust_net_srestore_to_zero) |       |            True |
@@ -133,7 +133,7 @@
 | [**nihalo**               ](https://github.com/mom-ocean/MOM6/search?q=nihalo) |                 |               4 |
 | [njglobal                 ](https://github.com/mom-ocean/MOM6/search?q=njglobal) |             300 |             300 |
 | [**njhalo**               ](https://github.com/mom-ocean/MOM6/search?q=njhalo) |                 |               4 |
-| [nk                       ](https://github.com/mom-ocean/MOM6/search?q=nk) |              50 |              50 |
+| [**nk**                   ](https://github.com/mom-ocean/MOM6/search?q=nk) |              75 |              50 |
 | [ocean_surface_stagger    ](https://github.com/mom-ocean/MOM6/search?q=ocean_surface_stagger) |             'A' |             'A' |
 | [pen_sw_frac              ](https://github.com/mom-ocean/MOM6/search?q=pen_sw_frac) |            0.42 |            0.42 |
 | [pen_sw_scale             ](https://github.com/mom-ocean/MOM6/search?q=pen_sw_scale) |            15.0 |            15.0 |

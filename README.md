@@ -45,7 +45,7 @@ If you edit `.gitmodules` to change the submodule's url or branch, you'll need t
 
 ### Adding new configurations
 
-Configurations in the `configs` directory are all submodules.
+Configurations in the `configs` directory are nearly all submodules.
 
 To add a new configuration, do this:
 ```bash
@@ -53,7 +53,7 @@ git submodule add -b <branch> <repo-url> configs/<config-name>
 ```
 where `<config-name>` uniquely identifies the repository and branch, and does not already exist in `configs`, e.g.
 ```bash
-git submodule add -b 1deg_jra55do_iaf https://github.com/COSIMA/MOM6-CICE6.git configs/MOM6-CICE6_1deg_jra55do_iaf
+git submodule add -b dev-MC_100km_jra_ryf https://github.com/ACCESS-NRI/access-om3-configs.git configs/dev-MC_100km_jra_ryf
 ```
 (Note: you need to explicitly specify the branch (even if it's the default branch), because `update_configs.sh` needs it. If you forgot to do this, you can define a branch for an existing submodule with `git submodule set-branch -b <branch> configs/<config-name>`; then run `update_configs.sh`.)
 

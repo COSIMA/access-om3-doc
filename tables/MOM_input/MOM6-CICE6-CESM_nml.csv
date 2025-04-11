@@ -1,4 +1,4 @@
-diff,group,variable,MOM6-CICE6_1deg_jra55do_ryf/MOM_input,MOM6-CICE6_gmom_jra/MOM_input
+diff,group,variable,dev-MC_100km_jra_ryf/MOM_input,gmom_jra/MOM_input
 ,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=adjust_net_fresh_water_to_zero"", ""adjust_net_fresh_water_to_zero"")",True,True
 ,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=ah"", ""ah"")",1000000000000.0,1000000000000.0
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=ah_vel_scale"", ""ah_vel_scale"")",,0.0
@@ -124,7 +124,7 @@ diff,group,variable,MOM6-CICE6_1deg_jra55do_ryf/MOM_input,MOM6-CICE6_gmom_jra/MO
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=nihalo"", ""nihalo"")",,4
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=njglobal"", ""njglobal"")",300,384
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=njhalo"", ""njhalo"")",,4
-*,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=nk"", ""nk"")",50,60
+*,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=nk"", ""nk"")",75,60
 ,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=ocean_surface_stagger"", ""ocean_surface_stagger"")",A,A
 ,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=pen_sw_frac"", ""pen_sw_frac"")",0.42,0.42
 ,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=pen_sw_scale"", ""pen_sw_scale"")",15.0,15.0

@@ -1,4 +1,4 @@
-diff,group,variable,MOM6-CICE6_1deg_jra55do_ryf/MOM_input,mom6-om4-025/MOM_input,MOM6-examples/ocean_only/global/MOM_input
+diff,group,variable,dev-MC_100km_jra_ryf/MOM_input,mom6-om4-025/MOM_input,MOM6-examples/ocean_only/global/MOM_input
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=absorb_all_sw"", ""absorb_all_sw"")",,,True
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=adjust_net_fresh_water_to_zero"", ""adjust_net_fresh_water_to_zero"")",True,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=adjust_thickness"", ""adjust_thickness"")",,,True
@@ -199,7 +199,7 @@ diff,group,variable,MOM6-CICE6_1deg_jra55do_ryf/MOM_input,mom6-om4-025/MOM_input
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=nihalo"", ""nihalo"")",,4,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=njglobal"", ""njglobal"")",300,1080,210
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=njhalo"", ""njhalo"")",,4,
-*,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=nk"", ""nk"")",50,75,63
+*,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=nk"", ""nk"")",75,75,63
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=nstar"", ""nstar"")",,0.06,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=num_diag_coords"", ""num_diag_coords"")",,2,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=ocean_surface_stagger"", ""ocean_surface_stagger"")",A,,

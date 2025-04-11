@@ -1,7 +1,3 @@
-[submodule "MOM6-CICE6_1deg_jra55do_ryf"]
-	path = configs/MOM6-CICE6_1deg_jra55do_ryf
-	url = https://github.com/ACCESS-NRI/access-om3-configs.git
-	branch = dev-MC_100km_jra_ryf
 [submodule "ACCESS-OM2_1deg_jra55_ryf"]
 	path = configs/ACCESS-OM2_1deg_jra55_ryf
 	url = https://github.com/COSIMA/1deg_jra55_ryf
@@ -22,26 +18,6 @@
 	path = configs/MOM6-examples
 	url = https://github.com/NOAA-GFDL/MOM6-examples.git
 	branch = dev/gfdl
-[submodule "configs/MOM6-CICE6_gmom_jra"]
-	path = configs/MOM6-CICE6_gmom_jra
-	url = https://github.com/ACCESS-NRI/access-om3-configs.git
-	branch = gmom_jra
-[submodule "configs/MOM6-CICE6_1deg_jra55do_iaf"]
-	path = configs/MOM6-CICE6_1deg_jra55do_iaf
-	url = https://github.com/ACCESS-NRI/access-om3-configs.git
-	branch = dev-MC_100km_jra_iaf
-[submodule "configs/MOM6-CICE6-WW3_1deg_jra55do_ryf"]
-	path = configs/MOM6-CICE6-WW3_1deg_jra55do_ryf
-	url = https://github.com/ACCESS-NRI/access-om3-configs.git
-	branch = dev-MCW_100km_jra_ryf
-[submodule "configs/MOM6-CICE6-WW3_1deg_jra55do_iaf"]
-	path = configs/MOM6-CICE6-WW3_1deg_jra55do_iaf
-	url = https://github.com/ACCESS-NRI/access-om3-configs.git
-	branch = dev-MCW_100km_jra_iaf
-[submodule "configs/MOM6-CICE6-WW3_gmom_jra_wd"]
-	path = configs/MOM6-CICE6-WW3_gmom_jra_wd
-	url = https://github.com/ACCESS-NRI/access-om3-configs.git
-	branch = gmom_jra_wd
 [submodule "configs/ACCESS-OM2_025deg_jra55_ryf"]
 	path = configs/ACCESS-OM2_025deg_jra55_ryf
 	url = https://github.com/COSIMA/025deg_jra55_ryf
@@ -50,10 +26,6 @@
 	path = configs/ACCESS-OM2_01deg_jra55_ryf
 	url = https://github.com/COSIMA/01deg_jra55_ryf
 	branch = master
-[submodule "configs/MOM6-CICE6_025deg_jra55do_ryf"]
-	path = configs/MOM6-CICE6_025deg_jra55do_ryf
-	url = https://github.com/ACCESS-NRI/access-om3-configs.git
-	branch = dev-MC_25km_jra_ryf
 [submodule "configs/ACCESS-OM2_01deg_jra55v13_ryf9091"]
 	path = configs/ACCESS-OM2_01deg_jra55v13_ryf9091
 	url = https://github.com/COSIMA/01deg_jra55_ryf
@@ -62,3 +34,31 @@
 	path = configs/ACCESS-OM2_release-01deg_jra55_ryf
 	url = https://github.com/ACCESS-NRI/access-om2-configs.git
 	branch = release-01deg_jra55_ryf
+[submodule "configs/dev-MCW_100km_jra_iaf"]
+	path = configs/dev-MCW_100km_jra_iaf
+	url = https://github.com/ACCESS-NRI/access-om3-configs.git
+	branch = dev-MCW_100km_jra_iaf
+[submodule "configs/dev-MCW_100km_jra_ryf"]
+	path = configs/dev-MCW_100km_jra_ryf
+	url = https://github.com/ACCESS-NRI/access-om3-configs.git
+	branch = dev-MCW_100km_jra_ryf
+[submodule "configs/gmom_jra_wd"]
+	path = configs/gmom_jra_wd
+	url = https://github.com/ACCESS-NRI/access-om3-configs.git
+	branch = gmom_jra_wd
+[submodule "configs/dev-MC_25km_jra_ryf"]
+	path = configs/dev-MC_25km_jra_ryf
+	url = https://github.com/ACCESS-NRI/access-om3-configs.git
+	branch = dev-MC_25km_jra_ryf
+[submodule "configs/dev-MC_100km_jra_iaf"]
+	path = configs/dev-MC_100km_jra_iaf
+	url = https://github.com/ACCESS-NRI/access-om3-configs.git
+	branch = dev-MC_100km_jra_iaf
+[submodule "configs/dev-MC_100km_jra_ryf"]
+	path = configs/dev-MC_100km_jra_ryf
+	url = https://github.com/ACCESS-NRI/access-om3-configs.git
+	branch = dev-MC_100km_jra_ryf
+[submodule "configs/gmom_jra"]
+	path = configs/gmom_jra
+	url = https://github.com/ACCESS-NRI/access-om3-configs.git
+	branch = gmom_jra

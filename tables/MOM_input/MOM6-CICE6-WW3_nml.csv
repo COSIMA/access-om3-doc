@@ -1,4 +1,4 @@
-diff,group,variable,MOM6-CICE6-WW3_1deg_jra55do_ryf/MOM_input,MOM6-CICE6-WW3_1deg_jra55do_iaf/MOM_input
+diff,group,variable,dev-MCW_100km_jra_ryf/MOM_input,dev-MCW_100km_jra_iaf/MOM_input
 ,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=adjust_net_fresh_water_to_zero"", ""adjust_net_fresh_water_to_zero"")",True,True
 ,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=adjust_net_srestore_to_zero"", ""adjust_net_srestore_to_zero"")",True,True
 ,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=ah"", ""ah"")",1000000000000.0,1000000000000.0
