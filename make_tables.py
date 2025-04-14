@@ -207,9 +207,17 @@ savetables( [
 
 savetables( [
         'GFDL-OM5/b00_MOM_parameter_doc.all',
-        'GFDL-OM5/b03_update_MOM_parameter_doc.all'
+        'GFDL-OM5/b03_update_MOM_parameter_doc.all',
+        'MOM6-examples-breichl/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all',
         ],
         'MOM_input/GFDL-OM5',
+        'https://github.com/mom-ocean/MOM6/search?q=')
+
+savetables( [
+        'GFDL-OM5/b03_update_MOM_parameter_doc.all',
+        'MOM6-examples-breichl/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all',
+        ],
+        'MOM_input/GFDL-OM5-update',
         'https://github.com/mom-ocean/MOM6/search?q=')
 
 savetables( [
@@ -224,10 +232,21 @@ savetables( [
         'https://github.com/mom-ocean/MOM6/search?q=')
 
 savetables( [
-        'GFDL-OM5/b03_update_MOM_parameter_doc.all',
+        # 'GFDL-OM5/b03_update_MOM_parameter_doc.all',
+        'MOM6-examples-breichl/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all',
         'dev-MC_100km_jra_ryf/docs/MOM_parameter_doc.all',
         'dev-MC_100km_jra_iaf/docs/MOM_parameter_doc.all',
         'dev-MC_25km_jra_ryf/docs/MOM_parameter_doc.all',
         ],
         'MOM_input/GFDL-OM5_ACCESS-OM3',
+        'https://github.com/mom-ocean/MOM6/search?q=')
+
+savetables( [
+        # 'GFDL-OM5/b03_update_MOM_parameter_doc.all',
+        'MOM6-examples-breichl/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all',
+        # 'dev-MC_100km_jra_ryf/docs/MOM_parameter_doc.all',
+        # 'dev-MC_100km_jra_iaf/docs/MOM_parameter_doc.all',
+        'dev-MC_25km_jra_ryf/docs/MOM_parameter_doc.all',
+        ],
+        'MOM_input/GFDL-OM5_ACCESS-OM3_25km',
         'https://github.com/mom-ocean/MOM6/search?q=')
