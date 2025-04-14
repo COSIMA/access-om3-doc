@@ -62,3 +62,7 @@
 	path = configs/gmom_jra
 	url = https://github.com/ACCESS-NRI/access-om3-configs.git
 	branch = gmom_jra
+[submodule "configs/MOM6-examples-breichl"]
+	path = configs/MOM6-examples-breichl
+	url = https://github.com/breichl/MOM6-examples.git
+	branch = Baltic_OM5
