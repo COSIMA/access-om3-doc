@@ -1,7 +1,8 @@
-| Variable                  | GFDL-OM5/<br>b03_update_MOM_parameter_doc.all | [MOM6-examples/<br>ice_ocean_SIS2/<br>Baltic_OM5_025/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/535c8d416cc3536cfd37bfb42810a57b3e4ad7c7/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all) |
+| Variable                  | GFDL-OM5/<br>b03_update_MOM_parameter_doc.all | [MOM6-examples/<br>ice_ocean_SIS2/<br>Baltic_OM5_025/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/3c1de3512e2200bfc10d9e5150715c9df76dbd30/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all) |
 | :------------------------ | --------------: | --------------: |
 | [**backscat_ebt_power**   ](https://github.com/mom-ocean/MOM6/search?q=backscat_ebt_power) |                 |             0.0 |
 | [**backscatter_underboun<br>d**](https://github.com/mom-ocean/MOM6/search?q=backscatter_underbound) |            |            True |
+| [**bodner_detect_mld**    ](https://github.com/mom-ocean/MOM6/search?q=bodner_detect_mld) |                 |           False |
 | [**bs_use_sqg_struct**    ](https://github.com/mom-ocean/MOM6/search?q=bs_use_sqg_struct) |                 |           False |
 | [**bt_linear_freq_drag**  ](https://github.com/mom-ocean/MOM6/search?q=bt_linear_freq_drag) |                 |           False |
 | [**chl_file**             ](https://github.com/mom-ocean/MOM6/search?q=chl_file) | 'seawifs-clim-1<br>997-2010.1440x1<br>080.v20180328.n<br>c' | 'seawifs_1998-2<br>006_smoothed_2X<br>.v20140616.nc' |
@@ -12,6 +13,7 @@
 | [**cr**                   ](https://github.com/mom-ocean/MOM6/search?q=cr) |            0.03 |          0.0175 |
 | [**diag_remapping_use_om<br>4_subcells**](https://github.com/mom-ocean/MOM6/search?q=diag_remapping_use_om4_subcells) |   |            True |
 | [**direct_epbl_mixing_ca<br>lc**](https://github.com/mom-ocean/MOM6/search?q=direct_epbl_mixing_calc) |           |           False |
+| [**do_skeb**              ](https://github.com/mom-ocean/MOM6/search?q=do_skeb) |                 |           False |
 | [**double_diffusion**     ](https://github.com/mom-ocean/MOM6/search?q=double_diffusion) |           False |            True |
 | [**dt_tracer_advect**     ](https://github.com/mom-ocean/MOM6/search?q=dt_tracer_advect) |                 |          7200.0 |
 | [**dtfreeze_dp**          ](https://github.com/mom-ocean/MOM6/search?q=dtfreeze_dp) |       -7.75e-08 |                 |
@@ -27,6 +29,7 @@
 | [**fix_ustar_gustless_bu<br>g**](https://github.com/mom-ocean/MOM6/search?q=fix_ustar_gustless_bug) |       True |                 |
 | [**fpmix**                ](https://github.com/mom-ocean/MOM6/search?q=fpmix) |                 |           False |
 | [**frictwork_bug**        ](https://github.com/mom-ocean/MOM6/search?q=frictwork_bug) |                 |            True |
+| [**geom_file**            ](https://github.com/mom-ocean/MOM6/search?q=geom_file) |                 | 'ocean_geometry<br>' |
 | [**henyey_max_lat**       ](https://github.com/mom-ocean/MOM6/search?q=henyey_max_lat) |                 |            73.0 |
 | [**hor_visc_answer_date** ](https://github.com/mom-ocean/MOM6/search?q=hor_visc_answer_date) |        20231231 |                 |
 | [**init_boundary_extrap** ](https://github.com/mom-ocean/MOM6/search?q=init_boundary_extrap) |                 |           False |
@@ -44,6 +47,7 @@
 | [**max_salt_diff_salt_fi<br>ngers**](https://github.com/mom-ocean/MOM6/search?q=max_salt_diff_salt_fingers) |        |          0.0001 |
 | [**maxtrunc**             ](https://github.com/mom-ocean/MOM6/search?q=maxtrunc) |              10 |          100000 |
 | [**meke_bhfrcoeff**       ](https://github.com/mom-ocean/MOM6/search?q=meke_bhfrcoeff) |                 |            -1.0 |
+| [**meke_positive**        ](https://github.com/mom-ocean/MOM6/search?q=meke_positive) |                 |           False |
 | [**ml_restrat_answer_dat<br>e**](https://github.com/mom-ocean/MOM6/search?q=ml_restrat_answer_date) |            |        20231231 |
 | [**mld_en_vals**          ](https://github.com/mom-ocean/MOM6/search?q=mld_en_vals) | [0.0, 0.0, 0.0] | [25.0, 2500.0, <br>250000.0] |
 | [**niglobal**             ](https://github.com/mom-ocean/MOM6/search?q=niglobal) |            1440 |              97 |
@@ -54,6 +58,7 @@
 | [**porbar_eta_interp**    ](https://github.com/mom-ocean/MOM6/search?q=porbar_eta_interp) |           'MAX' |                 |
 | [**porbar_masking_depth** ](https://github.com/mom-ocean/MOM6/search?q=porbar_masking_depth) |             0.0 |                 |
 | [**reentrant_x**          ](https://github.com/mom-ocean/MOM6/search?q=reentrant_x) |            True |           False |
+| [**remap_vel_conserve_ke**](https://github.com/mom-ocean/MOM6/search?q=remap_vel_conserve_ke) |                 |           False |
 | [**remapping_use_om4_sub<br>cells**](https://github.com/mom-ocean/MOM6/search?q=remapping_use_om4_subcells) |        |            True |
 | [**reset_intxpa_integral**](https://github.com/mom-ocean/MOM6/search?q=reset_intxpa_integral) |                 |           False |
 | [**reset_intxpa_integral<br>_flattest**](https://github.com/mom-ocean/MOM6/search?q=reset_intxpa_integral_flattest) |    |           False |
@@ -73,6 +78,8 @@
 | [**temp_z_init_file**     ](https://github.com/mom-ocean/MOM6/search?q=temp_z_init_file) | 'woa13_decav_pt<br>emp_monthly_ful<br>ldepth_01.nc' | 'WOA05_pottemp_<br>salt.nc' |
 | [**tfreeze_form**         ](https://github.com/mom-ocean/MOM6/search?q=tfreeze_form) |        'LINEAR' |     'TEOS_POLY' |
 | [**tfreeze_s0_p0**        ](https://github.com/mom-ocean/MOM6/search?q=tfreeze_s0_p0) |             0.0 |                 |
+| [**tfreeze_s_is_pracs**   ](https://github.com/mom-ocean/MOM6/search?q=tfreeze_s_is_pracs) |                 |           False |
+| [**tfreeze_t_is_pott**    ](https://github.com/mom-ocean/MOM6/search?q=tfreeze_t_is_pott) |                 |           False |
 | [**topo_edits_file**      ](https://github.com/mom-ocean/MOM6/search?q=topo_edits_file) |  'All_edits.nc' |              '' |
 | [**tradv_spans_coupling** ](https://github.com/mom-ocean/MOM6/search?q=tradv_spans_coupling) |                 |            True |
 | [**trig_channel_drag_wid<br>ths**](https://github.com/mom-ocean/MOM6/search?q=trig_channel_drag_widths) |          |            True |
@@ -88,6 +95,7 @@
 | [**use_lateral_boundary_<br>diffusion**](https://github.com/mom-ocean/MOM6/search?q=use_lateral_boundary_diffusion) | False |              |
 | [**use_legacy_diabatic_d<br>river**](https://github.com/mom-ocean/MOM6/search?q=use_legacy_diabatic_driver) |   True |           False |
 | [**use_leithy**           ](https://github.com/mom-ocean/MOM6/search?q=use_leithy) |                 |           False |
+| [**use_marbl_tracers**    ](https://github.com/mom-ocean/MOM6/search?q=use_marbl_tracers) |                 |           False |
 | [**use_mld_grid**         ](https://github.com/mom-ocean/MOM6/search?q=use_mld_grid) |                 |           False |
 | [**use_porous_barrier**   ](https://github.com/mom-ocean/MOM6/search?q=use_porous_barrier) |            True |           False |
 | [**use_uh_particles**     ](https://github.com/mom-ocean/MOM6/search?q=use_uh_particles) |                 |           False |
