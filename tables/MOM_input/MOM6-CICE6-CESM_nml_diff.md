@@ -1,4 +1,4 @@
-| Variable                  | [dev-MC_100km_jra_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/3724a14919e6bf2139fece7382e9acb8a1cd2ff2/MOM_input) | [gmom_jra/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/4f9e72a2c32ca4f6873a6f9cfad288038da945f4/MOM_input) |
+| Variable                  | [dev-MC_100km_jra_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/7c2c499b55ce0edbc5ec51a61b1caadb135d56f3/MOM_input) | [gmom_jra/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/4f9e72a2c32ca4f6873a6f9cfad288038da945f4/MOM_input) |
 | :------------------------ | --------------: | --------------: |
 | [**ah_vel_scale**         ](https://github.com/mom-ocean/MOM6/search?q=ah_vel_scale) |                 |             0.0 |
 | [**ale_coordinate_config**](https://github.com/mom-ocean/MOM6/search?q=ale_coordinate_config) | 'FILE:ocean_vgr<br>id.nc,interface<br>s=zeta' | 'FILE:ocean_vgr<br>id.nc,dz' |

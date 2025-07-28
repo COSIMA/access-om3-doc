@@ -1,4 +1,4 @@
-| Variable                  | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_05/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/3c1de3512e2200bfc10d9e5150715c9df76dbd30/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all) | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_025/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/3c1de3512e2200bfc10d9e5150715c9df76dbd30/ice_ocean_SIS2/OM4_025/MOM_parameter_doc.all) | GFDL-OM5/<br>b00_MOM_parameter_doc.all | GFDL-OM5/<br>b03_update_MOM_parameter_doc.all |
+| Variable                  | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_05/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/e2159790cb7d238793adf99ad6608e78b2c575c0/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all) | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_025/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/e2159790cb7d238793adf99ad6608e78b2c575c0/ice_ocean_SIS2/OM4_025/MOM_parameter_doc.all) | GFDL-OM5/<br>b00_MOM_parameter_doc.all | GFDL-OM5/<br>b03_update_MOM_parameter_doc.all |
 | :------------------------ | --------------: | --------------: | --------------: | --------------: |
 | [**backscat_ebt_power**   ](https://github.com/mom-ocean/MOM6/search?q=backscat_ebt_power) |             0.0 |             0.0 |                 |                 |
 | [**backscatter_underboun<br>d**](https://github.com/mom-ocean/MOM6/search?q=backscatter_underbound) |       True |            True |                 |                 |
@@ -7,6 +7,7 @@
 | [**bbl_effic**            ](https://github.com/mom-ocean/MOM6/search?q=bbl_effic) |             0.2 |             0.2 |             0.2 |            0.01 |
 | [**bld_decaying_tfilter** ](https://github.com/mom-ocean/MOM6/search?q=bld_decaying_tfilter) |                 |                 |                 |         86400.0 |
 | [**bld_growing_tfilter**  ](https://github.com/mom-ocean/MOM6/search?q=bld_growing_tfilter) |                 |                 |                 |             0.0 |
+| [**bmld_en_vals**         ](https://github.com/mom-ocean/MOM6/search?q=bmld_en_vals) | [25.0, 2500.0, <br>250000.0] | [25.0, 2500.0, <br>250000.0] |  |      |
 | [**bodner_mstar**         ](https://github.com/mom-ocean/MOM6/search?q=bodner_mstar) |                 |                 |                 |             0.5 |
 | [**bodner_nstar**         ](https://github.com/mom-ocean/MOM6/search?q=bodner_nstar) |                 |                 |                 |           0.066 |
 | [**bs_use_sqg_struct**    ](https://github.com/mom-ocean/MOM6/search?q=bs_use_sqg_struct) |           False |           False |                 |                 |
@@ -30,12 +31,17 @@
 | [**dt_tracer_advect**     ](https://github.com/mom-ocean/MOM6/search?q=dt_tracer_advect) |          7200.0 |          7200.0 |                 |                 |
 | [**dz_bbl_avg_min**       ](https://github.com/mom-ocean/MOM6/search?q=dz_bbl_avg_min) |             0.0 |             0.0 |                 |             0.0 |
 | [**ebt_remapping_use_om4<br>_subcells**](https://github.com/mom-ocean/MOM6/search?q=ebt_remapping_use_om4_subcells) | True |          True |                 |                 |
+| [**enable_bugs_by_defaul<br>t**](https://github.com/mom-ocean/MOM6/search?q=enable_bugs_by_default) |       True |            True |                 |                 |
 | [**energysavedays**       ](https://github.com/mom-ocean/MOM6/search?q=energysavedays) |            30.0 |            0.25 |            0.25 |            0.25 |
 | [**energysavedays_geomet<br>ric**](https://github.com/mom-ocean/MOM6/search?q=energysavedays_geometric) |     0.25 |             0.0 |             0.0 |             0.0 |
 | [**epbl_2018_answers**    ](https://github.com/mom-ocean/MOM6/search?q=epbl_2018_answers) |                 |                 |           False |                 |
 | [**epbl_answer_date**     ](https://github.com/mom-ocean/MOM6/search?q=epbl_answer_date) |        20181231 |        20181231 |        99991231 |        20231231 |
 | [**epbl_bbl_effic**       ](https://github.com/mom-ocean/MOM6/search?q=epbl_bbl_effic) |             0.0 |             0.0 |                 |                 |
 | [**epbl_bbl_tidal_effic** ](https://github.com/mom-ocean/MOM6/search?q=epbl_bbl_tidal_effic) |             0.0 |             0.0 |                 |                 |
+| [**epbl_bbl_use_mstar**   ](https://github.com/mom-ocean/MOM6/search?q=epbl_bbl_use_mstar) |           False |           False |                 |                 |
+| [**epbl_eqd_diffusivity_<br>shape**](https://github.com/mom-ocean/MOM6/search?q=epbl_eqd_diffusivity_shape) |  False |           False |                 |                 |
+| [**epbl_eqd_diffusivity_<br>velocity**](https://github.com/mom-ocean/MOM6/search?q=epbl_eqd_diffusivity_velocity) | False |         False |                 |                 |
+| [**epbl_eqd_diffusivity_<br>velocity_h**](https://github.com/mom-ocean/MOM6/search?q=epbl_eqd_diffusivity_velocity_h) | False |       False |                 |                 |
 | [**epbl_mld_bisection**   ](https://github.com/mom-ocean/MOM6/search?q=epbl_mld_bisection) |            True |            True |           False |           False |
 | [**epbl_mld_iter_bug**    ](https://github.com/mom-ocean/MOM6/search?q=epbl_mld_iter_bug) |            True |            True |                 |                 |
 | [**epbl_options_diff**    ](https://github.com/mom-ocean/MOM6/search?q=epbl_options_diff) |               0 |               0 |                 |                 |
@@ -56,6 +62,7 @@
 | [**hor_visc_answer_date** ](https://github.com/mom-ocean/MOM6/search?q=hor_visc_answer_date) |                 |                 |        99991231 |        20231231 |
 | [**init_boundary_extrap** ](https://github.com/mom-ocean/MOM6/search?q=init_boundary_extrap) |           False |           False |                 |                 |
 | [**intwave_remapping_use<br>_om4_subcells**](https://github.com/mom-ocean/MOM6/search?q=intwave_remapping_use_om4_subcells) | True |      True |                 |                 |
+| [**iso_date_stamped_stdo<br>ut**](https://github.com/mom-ocean/MOM6/search?q=iso_date_stamped_stdout) |     False |           False |                 |                 |
 | [**kappa_shear_all_layer<br>_tke_bug**](https://github.com/mom-ocean/MOM6/search?q=kappa_shear_all_layer_tke_bug) | True |           True |           False |           False |
 | [**kappa_shear_iter_bug** ](https://github.com/mom-ocean/MOM6/search?q=kappa_shear_iter_bug) |            True |            True |           False |           False |
 | [**kappa_shear_vertex_ps<br>urf_bug**](https://github.com/mom-ocean/MOM6/search?q=kappa_shear_vertex_psurf_bug) |      |                 |                 |           False |
@@ -74,6 +81,7 @@
 | [**kv_restrat**           ](https://github.com/mom-ocean/MOM6/search?q=kv_restrat) |             0.0 |             0.0 |             0.0 |                 |
 | [**lotw_bbl_answer_date** ](https://github.com/mom-ocean/MOM6/search?q=lotw_bbl_answer_date) |        20190101 |        20190101 |                 |                 |
 | [**lz_rescale**           ](https://github.com/mom-ocean/MOM6/search?q=lz_rescale) |             1.0 |             1.0 |                 |                 |
+| [**mask_coastal_pressure<br>_force**](https://github.com/mom-ocean/MOM6/search?q=mask_coastal_pressure_force) | False |           False |                 |                 |
 | [**mass_weight_in_pgf_va<br>nished_only**](https://github.com/mom-ocean/MOM6/search?q=mass_weight_in_pgf_vanished_only) | False |      False |                 |                 |
 | [**mass_weight_in_pressu<br>re_gradient_top**](https://github.com/mom-ocean/MOM6/search?q=mass_weight_in_pressure_gradient_top) | False |  False |                 |                 |
 | [**max_tr_diffusion_cfl** ](https://github.com/mom-ocean/MOM6/search?q=max_tr_diffusion_cfl) |             2.0 |            -1.0 |            -1.0 |            -1.0 |
@@ -135,7 +143,6 @@
 | [**smag_lap_const**       ](https://github.com/mom-ocean/MOM6/search?q=smag_lap_const) |            0.15 |                 |                 |                 |
 | [**smagorinsky_kh**       ](https://github.com/mom-ocean/MOM6/search?q=smagorinsky_kh) |            True |           False |           False |           False |
 | [**split_rk2b**           ](https://github.com/mom-ocean/MOM6/search?q=split_rk2b) |           False |           False |                 |                 |
-| [**sqg_expo**             ](https://github.com/mom-ocean/MOM6/search?q=sqg_expo) |             1.0 |             1.0 |                 |                 |
 | [**sqg_use_meke**         ](https://github.com/mom-ocean/MOM6/search?q=sqg_use_meke) |           False |           False |                 |                 |
 | [**ssh_in_eos_pressure_f<br>or_pgf**](https://github.com/mom-ocean/MOM6/search?q=ssh_in_eos_pressure_for_pgf) | False |           False |                 |                 |
 | [**surface_2018_answers** ](https://github.com/mom-ocean/MOM6/search?q=surface_2018_answers) |                 |                 |           False |                 |

@@ -6,6 +6,7 @@ diff,group,variable,MOM6-examples/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all,MO
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=bbl_effic"", ""bbl_effic"")",0.2,0.2,0.2,0.01
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=bld_decaying_tfilter"", ""bld_decaying_tfilter"")",,,,86400.0
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=bld_growing_tfilter"", ""bld_growing_tfilter"")",,,,0.0
+*,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=bmld_en_vals"", ""bmld_en_vals"")","[25.0, 2500.0, 250000.0]","[25.0, 2500.0, 250000.0]",,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=bodner_mstar"", ""bodner_mstar"")",,,,0.5
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=bodner_nstar"", ""bodner_nstar"")",,,,0.066
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=bs_use_sqg_struct"", ""bs_use_sqg_struct"")",False,False,,
@@ -29,12 +30,17 @@ diff,group,variable,MOM6-examples/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all,MO
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=dt_tracer_advect"", ""dt_tracer_advect"")",7200.0,7200.0,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=dz_bbl_avg_min"", ""dz_bbl_avg_min"")",0.0,0.0,,0.0
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=ebt_remapping_use_om4_subcells"", ""ebt_remapping_use_om4_subcells"")",True,True,,
+*,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=enable_bugs_by_default"", ""enable_bugs_by_default"")",True,True,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=energysavedays"", ""energysavedays"")",30.0,0.25,0.25,0.25
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=energysavedays_geometric"", ""energysavedays_geometric"")",0.25,0.0,0.0,0.0
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=epbl_2018_answers"", ""epbl_2018_answers"")",,,False,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=epbl_answer_date"", ""epbl_answer_date"")",20181231,20181231,99991231,20231231
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=epbl_bbl_effic"", ""epbl_bbl_effic"")",0.0,0.0,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=epbl_bbl_tidal_effic"", ""epbl_bbl_tidal_effic"")",0.0,0.0,,
+*,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=epbl_bbl_use_mstar"", ""epbl_bbl_use_mstar"")",False,False,,
+*,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=epbl_eqd_diffusivity_shape"", ""epbl_eqd_diffusivity_shape"")",False,False,,
+*,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=epbl_eqd_diffusivity_velocity"", ""epbl_eqd_diffusivity_velocity"")",False,False,,
+*,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=epbl_eqd_diffusivity_velocity_h"", ""epbl_eqd_diffusivity_velocity_h"")",False,False,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=epbl_mld_bisection"", ""epbl_mld_bisection"")",True,True,False,False
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=epbl_mld_iter_bug"", ""epbl_mld_iter_bug"")",True,True,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=epbl_options_diff"", ""epbl_options_diff"")",0,0,,
@@ -55,6 +61,7 @@ diff,group,variable,MOM6-examples/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all,MO
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=hor_visc_answer_date"", ""hor_visc_answer_date"")",,,99991231,20231231
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=init_boundary_extrap"", ""init_boundary_extrap"")",False,False,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=intwave_remapping_use_om4_subcells"", ""intwave_remapping_use_om4_subcells"")",True,True,,
+*,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=iso_date_stamped_stdout"", ""iso_date_stamped_stdout"")",False,False,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=kappa_shear_all_layer_tke_bug"", ""kappa_shear_all_layer_tke_bug"")",True,True,False,False
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=kappa_shear_iter_bug"", ""kappa_shear_iter_bug"")",True,True,False,False
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=kappa_shear_vertex_psurf_bug"", ""kappa_shear_vertex_psurf_bug"")",,,,False
@@ -73,6 +80,7 @@ diff,group,variable,MOM6-examples/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all,MO
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=kv_restrat"", ""kv_restrat"")",0.0,0.0,0.0,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=lotw_bbl_answer_date"", ""lotw_bbl_answer_date"")",20190101,20190101,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=lz_rescale"", ""lz_rescale"")",1.0,1.0,,
+*,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mask_coastal_pressure_force"", ""mask_coastal_pressure_force"")",False,False,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mass_weight_in_pgf_vanished_only"", ""mass_weight_in_pgf_vanished_only"")",False,False,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mass_weight_in_pressure_gradient_top"", ""mass_weight_in_pressure_gradient_top"")",False,False,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=max_tr_diffusion_cfl"", ""max_tr_diffusion_cfl"")",2.0,-1.0,-1.0,-1.0
@@ -134,7 +142,6 @@ diff,group,variable,MOM6-examples/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all,MO
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=smag_lap_const"", ""smag_lap_const"")",0.15,,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=smagorinsky_kh"", ""smagorinsky_kh"")",True,False,False,False
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=split_rk2b"", ""split_rk2b"")",False,False,,
-*,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=sqg_expo"", ""sqg_expo"")",1.0,1.0,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=sqg_use_meke"", ""sqg_use_meke"")",False,False,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=ssh_in_eos_pressure_for_pgf"", ""ssh_in_eos_pressure_for_pgf"")",False,False,,
 *,"=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=mom6"", ""&mom6"")","=HYPERLINK(""https://github.com/mom-ocean/MOM6/search?q=surface_2018_answers"", ""surface_2018_answers"")",,,False,

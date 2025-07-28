@@ -66,3 +66,7 @@
 	path = configs/MOM6-examples-breichl
 	url = https://github.com/breichl/MOM6-examples.git
 	branch = Baltic_OM5
+[submodule "configs/release-MC_25km_jra_ryf"]
+	path = configs/release-MC_25km_jra_ryf
+	url = https://github.com/ACCESS-NRI/access-om3-configs.git
+	branch = release-MC_25km_jra_ryf

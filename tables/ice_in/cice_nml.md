@@ -1,4 +1,4 @@
-| Group                 | Variable                  | [dev-MC_100km_jra_ryf/<br>ice_in](https://github.com/ACCESS-NRI/access-om3-configs/blob/3724a14919e6bf2139fece7382e9acb8a1cd2ff2/ice_in) | [ACCESS-OM2_1deg_jra55_ryf/<br>ice/<br>cice_in.nml](https://github.com/COSIMA/1deg_jra55_ryf/blob/c7f15f671b3417c52e8ecd77d5fe9b4d38429452/ice/cice_in.nml) |
+| Group                 | Variable                  | [dev-MC_100km_jra_ryf/<br>ice_in](https://github.com/ACCESS-NRI/access-om3-configs/blob/7c2c499b55ce0edbc5ec51a61b1caadb135d56f3/ice_in) | [ACCESS-OM2_1deg_jra55_ryf/<br>ice/<br>cice_in.nml](https://github.com/COSIMA/1deg_jra55_ryf/blob/c7f15f671b3417c52e8ecd77d5fe9b4d38429452/ice/cice_in.nml) |
 | :-------------------- | :------------------------ | --------------: | --------------: |
 | [domain_nml           ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=domain_nml) | [**block_size_x**         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=block_size_x) |              15 |                 |
 |                       | [**block_size_y**         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=block_size_y) |              20 |                 |
@@ -58,6 +58,7 @@
 |                       | [**grid_format**          ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_format) |        'mom_nc' |            'nc' |
 |                       | [**grid_ice**             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_ice) |             'B' |                 |
 |                       | [**grid_ocn**             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_ocn) |             'A' |                 |
+|                       | [**grid_outfile**         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_outfile) |            True |                 |
 |                       | [grid_type                ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=grid_type) |       'tripole' |       'tripole' |
 |                       | [kcatbound                ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=kcatbound) |               0 |               0 |
 |                       | [**kmt_file**             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=kmt_file) | './INPUT/kmt.nc<br>' | 'RESTART/kmt.nc<br>' |
