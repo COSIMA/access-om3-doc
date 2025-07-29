@@ -252,3 +252,10 @@ savetables( [
         ],
         'MOM_input/GFDL-OM5_ACCESS-OM3_25km',
         'https://github.com/mom-ocean/MOM6/search?q=')
+
+savetables( [
+        'mom6-panan/MOM_input',
+        'release-MC_25km_jra_ryf/docs/MOM_parameter_doc.all',
+         ],
+        'MOM_input/Panan_ACCESS-OM3_25km',
+        'https://github.com/mom-ocean/MOM6/search?q=')
