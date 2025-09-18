@@ -1,4 +1,4 @@
-| Variable                  | [dev-MC_100km_jra_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/7c2c499b55ce0edbc5ec51a61b1caadb135d56f3/MOM_input) | [dev-MCW_100km_jra_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/fa244187ee55e0852f0d53baa2ab0fd37284a4e9/MOM_input) |
+| Variable                  | [dev-MC_100km_jra_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/d49e61cc08c84163fed1b664ff79dbef6af594d7/MOM_input) | [dev-MCW_100km_jra_ryf/<br>MOM_input](https://github.com/ACCESS-NRI/access-om3-configs/blob/fa244187ee55e0852f0d53baa2ab0fd37284a4e9/MOM_input) |
 | :------------------------ | --------------: | --------------: |
 | [adjust_net_fresh_wate<br>r_to_zero](https://github.com/mom-ocean/MOM6/search?q=adjust_net_fresh_water_to_zero) |   True |            True |
 | [**adjust_net_srestore_t<br>o_zero**](https://github.com/mom-ocean/MOM6/search?q=adjust_net_srestore_to_zero) |       |            True |

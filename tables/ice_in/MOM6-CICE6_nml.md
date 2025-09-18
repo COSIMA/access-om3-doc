@@ -1,4 +1,4 @@
-| Group                 | Variable                  | [dev-MC_100km_jra_ryf/<br>ice_in](https://github.com/ACCESS-NRI/access-om3-configs/blob/7c2c499b55ce0edbc5ec51a61b1caadb135d56f3/ice_in) | [dev-MC_100km_jra_iaf/<br>ice_in](https://github.com/ACCESS-NRI/access-om3-configs/blob/003411d870f53c881b7b287f4fc6defe19cfe685/ice_in) | [dev-MC_25km_jra_ryf/<br>ice_in](https://github.com/ACCESS-NRI/access-om3-configs/blob/3a0cf69030f57965aa5f909909657921510fcbb9/ice_in) |
+| Group                 | Variable                  | [dev-MC_100km_jra_ryf/<br>ice_in](https://github.com/ACCESS-NRI/access-om3-configs/blob/d49e61cc08c84163fed1b664ff79dbef6af594d7/ice_in) | [dev-MC_100km_jra_iaf/<br>ice_in](https://github.com/ACCESS-NRI/access-om3-configs/blob/49e3f9c0a0162acb313853a5897a3435673db410/ice_in) | [dev-MC_25km_jra_ryf/<br>ice_in](https://github.com/ACCESS-NRI/access-om3-configs/blob/7851c1e13088b6d6f0e937b04023c0cc359badf3/ice_in) |
 | :-------------------- | :------------------------ | --------------: | --------------: | --------------: |
 | [domain_nml           ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=domain_nml) | [**block_size_x**         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=block_size_x) |              15 |              15 |              30 |
 |                       | [**block_size_y**         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=block_size_y) |              20 |              20 |              27 |
@@ -10,7 +10,7 @@
 |                       | [**max_blocks**           ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=max_blocks) |              15 |              15 |              -1 |
 |                       | [ns_boundary_type         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ns_boundary_type) |       'tripole' |       'tripole' |       'tripole' |
 |                       | [**nx_global**            ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=nx_global) |             360 |             360 |            1440 |
-|                       | [**ny_global**            ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ny_global) |             300 |             300 |            1142 |
+|                       | [**ny_global**            ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ny_global) |             300 |             300 |            1152 |
 |                       | [**processor_shape**      ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=processor_shape) |     'slenderX1' |     'slenderX1' |    'square-ice' |
 | [dynamics_nml         ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=dynamics_nml) | [advection                ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=advection) |         'remap' |         'remap' |         'remap' |
 |                       | [ssh_stress               ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ssh_stress) |       'coupled' |       'coupled' |       'coupled' |
@@ -141,7 +141,7 @@
 |                       | [**history_chunksize**    ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=history_chunksize) |      [180, 150] |      [180, 150] |      [720, 540] |
 |                       | [history_deflate          ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=history_deflate) |               1 |               1 |               1 |
 |                       | [history_precision        ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=history_precision) |               8 |               8 |               8 |
-|                       | [**ice_ic**               ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ice_ic) | './INPUT/iced.1<br>900-01-01-10800<br>.nc' | './INPUT/iced.1<br>900-01-01-10800<br>.nc' | 'default' |
+|                       | [**ice_ic**               ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=ice_ic) | './INPUT/iced.1<br>900-01-01-10800<br>.nc' | './INPUT/iced.1<br>900-01-01-10800<br>.nc' | 'none' |
 |                       | [lcdf64                   ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=lcdf64) |           False |           False |           False |
 |                       | [npt                      ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=npt) |           35040 |           35040 |           35040 |
 |                       | [pointer_file             ](https://cice-consortium-cice.readthedocs.io/en/main/search.html?q=pointer_file) | './rpointer.ice<br>' | './rpointer.ice<br>' | './rpointer.ice<br>' |
