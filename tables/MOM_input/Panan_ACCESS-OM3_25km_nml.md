@@ -1,4 +1,4 @@
-| Variable                  | [mom6-panan/<br>MOM_input](https://github.com/COSIMA/mom6-panan/blob/a900ea38a08896d2b6c43350a1505830212c9c69/MOM_input) | [release-MC_25km_jra_ryf/<br>docs/<br>MOM_parameter_doc.all](https://github.com/ACCESS-NRI/access-om3-configs/blob/ba36c6d4dbd789a83437cea81e94dc69001d91e9/docs/MOM_parameter_doc.all) |
+| Variable                  | [mom6-panan/<br>MOM_input](https://github.com/COSIMA/mom6-panan/blob/a900ea38a08896d2b6c43350a1505830212c9c69/MOM_input) | [release-MC_25km_jra_ryf/<br>docs/<br>MOM_parameter_doc.all](https://github.com/ACCESS-NRI/access-om3-configs/blob/4429156d3bb1ad4e04f41be8a90329684365786d/docs/MOM_parameter_doc.all) |
 | :------------------------ | --------------: | --------------: |
 | [**add_les_viscosity**    ](https://github.com/mom-ocean/MOM6/search?q=add_les_viscosity) |                 |           False |
 | [**adiabatic**            ](https://github.com/mom-ocean/MOM6/search?q=adiabatic) |                 |           False |
