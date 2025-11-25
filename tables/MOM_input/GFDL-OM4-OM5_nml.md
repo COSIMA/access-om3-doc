@@ -1,4 +1,4 @@
-| Variable                  | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_05/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/d3443aa10e34860332077f41686043a911ff127c/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all) | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_025/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/d3443aa10e34860332077f41686043a911ff127c/ice_ocean_SIS2/OM4_025/MOM_parameter_doc.all) | GFDL-OM5/<br>b00_MOM_parameter_doc.all | GFDL-OM5/<br>b03_update_MOM_parameter_doc.all |
+| Variable                  | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_05/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/5abb55d09e31ef95e4e35299a1f09678798d3214/ice_ocean_SIS2/OM4_05/MOM_parameter_doc.all) | [MOM6-examples/<br>ice_ocean_SIS2/<br>OM4_025/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/5abb55d09e31ef95e4e35299a1f09678798d3214/ice_ocean_SIS2/OM4_025/MOM_parameter_doc.all) | GFDL-OM5/<br>b00_MOM_parameter_doc.all | GFDL-OM5/<br>b03_update_MOM_parameter_doc.all |
 | :------------------------ | --------------: | --------------: | --------------: | --------------: |
 | [add_les_viscosity        ](https://github.com/mom-ocean/MOM6/search?q=add_les_viscosity) |           False |           False |           False |           False |
 | [adiabatic                ](https://github.com/mom-ocean/MOM6/search?q=adiabatic) |           False |           False |           False |           False |
@@ -659,6 +659,7 @@
 | [use_bt_cont_type         ](https://github.com/mom-ocean/MOM6/search?q=use_bt_cont_type) |            True |            True |            True |            True |
 | [use_calving_heat_cont<br>ent](https://github.com/mom-ocean/MOM6/search?q=use_calving_heat_content) |        False |           False |           False |           False |
 | [use_cfc_cap              ](https://github.com/mom-ocean/MOM6/search?q=use_cfc_cap) |           False |           False |           False |           False |
+| [**use_circulation_in_ho<br>rvisc**](https://github.com/mom-ocean/MOM6/search?q=use_circulation_in_horvisc) |  False |           False |                 |                 |
 | [**use_cont_thickness**   ](https://github.com/mom-ocean/MOM6/search?q=use_cont_thickness) |           False |           False |                 |                 |
 | [use_contemp_abssal       ](https://github.com/mom-ocean/MOM6/search?q=use_contemp_abssal) |           False |           False |           False |           False |
 | [use_cvmix_convection     ](https://github.com/mom-ocean/MOM6/search?q=use_cvmix_convection) |           False |           False |           False |           False |
@@ -675,6 +676,7 @@
 | [**use_gm_work_bug**      ](https://github.com/mom-ocean/MOM6/search?q=use_gm_work_bug) |            True |            True |           False |           False |
 | [use_gme                  ](https://github.com/mom-ocean/MOM6/search?q=use_gme) |           False |           False |           False |           False |
 | [**use_grid_space_diagno<br>stic_axes**](https://github.com/mom-ocean/MOM6/search?q=use_grid_space_diagnostic_axes) |    |                 |           False |           False |
+| [**use_ha**               ](https://github.com/mom-ocean/MOM6/search?q=use_ha) |           False |           False |                 |                 |
 | [**use_horizontal_bounda<br>ry_diffusion**](https://github.com/mom-ocean/MOM6/search?q=use_horizontal_boundary_diffusion) | False |     False |                 |                 |
 | [**use_huynh_stencil_bug**](https://github.com/mom-ocean/MOM6/search?q=use_huynh_stencil_bug) |           False |           False |                 |                 |
 | [use_ideal_age_tracer     ](https://github.com/mom-ocean/MOM6/search?q=use_ideal_age_tracer) |            True |            True |            True |            True |

@@ -1,4 +1,4 @@
-| Variable                  | [MOM6-examples/<br>ice_ocean_SIS2/<br>Baltic_OM5_025/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/d3443aa10e34860332077f41686043a911ff127c/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all) | [release-MC_25km_jra_ryf/<br>docs/<br>MOM_parameter_doc.all](https://github.com/ACCESS-NRI/access-om3-configs/blob/4429156d3bb1ad4e04f41be8a90329684365786d/docs/MOM_parameter_doc.all) |
+| Variable                  | [MOM6-examples/<br>ice_ocean_SIS2/<br>Baltic_OM5_025/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/5abb55d09e31ef95e4e35299a1f09678798d3214/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all) | [release-MC_25km_jra_ryf/<br>docs/<br>MOM_parameter_doc.all](https://github.com/ACCESS-NRI/access-om3-configs/blob/4429156d3bb1ad4e04f41be8a90329684365786d/docs/MOM_parameter_doc.all) |
 | :------------------------ | --------------: | --------------: |
 | [**ale_coordinate_config**](https://github.com/mom-ocean/MOM6/search?q=ale_coordinate_config) | 'HYBRID:hycom1_<br>75_800m.nc,sigm<br>a2,FNC1:2,4000,<br>4.5,.01' | 'FILE:ocean_vgr<br>id.nc,interface<br>s=zeta' |
 | [**approx_net_mass_src**  ](https://github.com/mom-ocean/MOM6/search?q=approx_net_mass_src) |           False |                 |
@@ -156,8 +156,10 @@
 | [**topo_file**            ](https://github.com/mom-ocean/MOM6/search?q=topo_file) | 'ocean_topog.nc<br>' | 'topog.nc' |
 | [**tradv_spans_coupling** ](https://github.com/mom-ocean/MOM6/search?q=tradv_spans_coupling) |            True |                 |
 | [**tripolar_n**           ](https://github.com/mom-ocean/MOM6/search?q=tripolar_n) |           False |            True |
+| [**use_circulation_in_ho<br>rvisc**](https://github.com/mom-ocean/MOM6/search?q=use_circulation_in_horvisc) |  False |                 |
 | [**use_diabatic_time_bug**](https://github.com/mom-ocean/MOM6/search?q=use_diabatic_time_bug) |                 |           False |
 | [**use_filter**           ](https://github.com/mom-ocean/MOM6/search?q=use_filter) |           False |                 |
+| [**use_ha**               ](https://github.com/mom-ocean/MOM6/search?q=use_ha) |           False |                 |
 | [**use_land_mask_for_hvi<br>sc**](https://github.com/mom-ocean/MOM6/search?q=use_land_mask_for_hvisc) |     False |            True |
 | [**use_marbl_tracers**    ](https://github.com/mom-ocean/MOM6/search?q=use_marbl_tracers) |           False |                 |
 | [**use_neutral_diffusion**](https://github.com/mom-ocean/MOM6/search?q=use_neutral_diffusion) |           False |            True |

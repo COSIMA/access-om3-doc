@@ -1,4 +1,4 @@
-| Variable                  | GFDL-OM5/<br>b00_MOM_parameter_doc.all | GFDL-OM5/<br>b03_update_MOM_parameter_doc.all | [MOM6-examples/<br>ice_ocean_SIS2/<br>Baltic_OM5_025/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/d3443aa10e34860332077f41686043a911ff127c/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all) |
+| Variable                  | GFDL-OM5/<br>b00_MOM_parameter_doc.all | GFDL-OM5/<br>b03_update_MOM_parameter_doc.all | [MOM6-examples/<br>ice_ocean_SIS2/<br>Baltic_OM5_025/<br>MOM_parameter_doc.all](https://github.com/NOAA-GFDL/MOM6-examples/blob/5abb55d09e31ef95e4e35299a1f09678798d3214/ice_ocean_SIS2/Baltic_OM5_025/MOM_parameter_doc.all) |
 | :------------------------ | --------------: | --------------: | --------------: |
 | [**backscat_ebt_power**   ](https://github.com/mom-ocean/MOM6/search?q=backscat_ebt_power) |                 |                 |             0.0 |
 | [**backscatter_underboun<br>d**](https://github.com/mom-ocean/MOM6/search?q=backscatter_underbound) |            |                 |           False |
@@ -151,12 +151,14 @@
 | [**trig_channel_drag_wid<br>ths**](https://github.com/mom-ocean/MOM6/search?q=trig_channel_drag_widths) |          |                 |            True |
 | [**tripolar_n**           ](https://github.com/mom-ocean/MOM6/search?q=tripolar_n) |            True |            True |           False |
 | [**use_bodner23**         ](https://github.com/mom-ocean/MOM6/search?q=use_bodner23) |           False |            True |            True |
+| [**use_circulation_in_ho<br>rvisc**](https://github.com/mom-ocean/MOM6/search?q=use_circulation_in_horvisc) |        |                 |           False |
 | [**use_cont_thickness**   ](https://github.com/mom-ocean/MOM6/search?q=use_cont_thickness) |                 |                 |           False |
 | [**use_contemp_abssal**   ](https://github.com/mom-ocean/MOM6/search?q=use_contemp_abssal) |           False |           False |            True |
 | [**use_cr_grid**          ](https://github.com/mom-ocean/MOM6/search?q=use_cr_grid) |                 |                 |           False |
 | [**use_diabatic_time_bug**](https://github.com/mom-ocean/MOM6/search?q=use_diabatic_time_bug) |           False |           False |                 |
 | [**use_filter**           ](https://github.com/mom-ocean/MOM6/search?q=use_filter) |                 |                 |           False |
 | [**use_grid_space_diagno<br>stic_axes**](https://github.com/mom-ocean/MOM6/search?q=use_grid_space_diagnostic_axes) | False |        False |                 |
+| [**use_ha**               ](https://github.com/mom-ocean/MOM6/search?q=use_ha) |                 |                 |           False |
 | [**use_horizontal_bounda<br>ry_diffusion**](https://github.com/mom-ocean/MOM6/search?q=use_horizontal_boundary_diffusion) |  |                |           False |
 | [**use_huynh_stencil_bug**](https://github.com/mom-ocean/MOM6/search?q=use_huynh_stencil_bug) |                 |                 |           False |
 | [**use_index_diagnostic_<br>axes**](https://github.com/mom-ocean/MOM6/search?q=use_index_diagnostic_axes) |         |                 |           False |
