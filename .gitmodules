@@ -70,3 +70,7 @@
 	path = configs/release-MC_25km_jra_ryf
 	url = https://github.com/ACCESS-NRI/access-om3-configs.git
 	branch = release-MC_25km_jra_ryf
+[submodule "configs/dev-MC_25km_jra_iaf"]
+	path = configs/dev-MC_25km_jra_iaf
+	url = https://github.com/ACCESS-NRI/access-om3-configs.git
+	branch = dev-MC_25km_jra_iaf
